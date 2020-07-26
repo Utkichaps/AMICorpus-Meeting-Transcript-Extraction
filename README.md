@@ -1,15 +1,15 @@
 # AMICorpus-Meeting-Transcript-Extraction
 This python script can be used to convert the AMI corpus meeting transcripts to a speaker by speaker conversation or dialogue discourse for each meeting.     
-An example from the transcript:
-
-C:The basic word importance is off-line.
-E:Yeah Okay.
-C:as well The combined measure might not be if we want to wait what.
-C:the user has typed in into the search.
-E:Okay 'Kay.
-D:Uh mine's gonna be mostly using the off-line But the actual stuff it's doing will be on-line But it won't be very.
-D:um processor intensive or memory intensive I don't.
-
+An example from the transcript:     
+     
+C:The basic word importance is off-line.     
+E:Yeah Okay.     
+C:as well The combined measure might not be if we want to wait what.     
+C:the user has typed in into the search.     
+E:Okay 'Kay.     
+D:Uh mine's gonna be mostly using the off-line But the actual stuff it's doing will be on-line But it won't be very.     
+D:um processor intensive or memory intensive I don't.     
+     
 `Note: The AMI corpus has many instances of cross talk which I have tried to eliminate using the code. The current code does eliminate cross talk (to an extent) but it could use some improvement`
 
 ## The AMI Corpus:
