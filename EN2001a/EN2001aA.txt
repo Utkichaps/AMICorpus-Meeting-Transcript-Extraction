@@ -1,0 +1,2093 @@
+<w nite:id="EN2001a.A.words0" endtime="5.94" starttime="5.57">Okay</w>
+
+<w nite:id="EN2001a.A.words1" endtime="5.94" starttime="5.94" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words2" endtime="11.25" starttime="11.09">Does</w>
+
+<w nite:id="EN2001a.A.words3" endtime="11.5" starttime="11.25">anyone</w>
+
+<w nite:id="EN2001a.A.words4" endtime="11.65" starttime="11.5">want</w>
+
+<w nite:id="EN2001a.A.words5" endtime="11.71" starttime="11.65">to</w>
+
+<w nite:id="EN2001a.A.words6" endtime="12.15" starttime="11.71">see</w>
+
+<w nite:id="EN2001a.A.words7" endtime="12.42" starttime="12.15">uh</w>
+
+<w nite:id="EN2001a.A.words8" endtime="12.94" starttime="12.42">Steve's</w>
+
+<w nite:id="EN2001a.A.words9" endtime="13.5" starttime="12.94">feedback</w>
+
+<w nite:id="EN2001a.A.words10" endtime="13.71" starttime="13.5">from</w>
+
+<w nite:id="EN2001a.A.words11" endtime="14.73" starttime="13.71">the</w>
+
+<w nite:id="EN2001a.A.words12" endtime="15.53" starttime="14.73">specification</w>
+
+<w nite:id="EN2001a.A.words13" endtime="15.53" starttime="15.53" punc="true">?</w>
+
+<w nite:id="EN2001a.A.words14" endtime="19.26" starttime="18.95">Right</w>
+
+<w nite:id="EN2001a.A.words15" endtime="19.26" starttime="19.26" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words16" endtime="21.69" starttime="21.41">Not</w>
+
+<w nite:id="EN2001a.A.words17" endtime="22.33" starttime="21.69">really</w>
+
+<w nite:id="EN2001a.A.words18" endtime="22.33" starttime="22.33" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words19" endtime="23.17" starttime="22.33">um</w>
+
+<w nite:id="EN2001a.A.words20" endtime="23.37" starttime="23.17">just</w>
+
+<w nite:id="EN2001a.A.words21" endtime="23.53" starttime="23.37">what</w>
+
+<w nite:id="EN2001a.A.words22" endtime="23.65" starttime="23.53">he's</w>
+
+<w nite:id="EN2001a.A.words23" endtime="23.92" starttime="23.65">talking</w>
+
+<w nite:id="EN2001a.A.words24" endtime="24.12" starttime="23.92">about</w>
+
+<w nite:id="EN2001a.A.words25" endtime="24.12" starttime="24.12" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words26" endtime="24.31" starttime="24.12">like</w>
+
+<w nite:id="EN2001a.A.words27" endtime="24.91" starttime="24.31">duplication</w>
+
+<w nite:id="EN2001a.A.words28" endtime="25.03" starttime="24.91">of</w>
+
+<w nite:id="EN2001a.A.words29" endtime="25.45" starttime="25.03">effort</w>
+
+<w nite:id="EN2001a.A.words30" endtime="25.77" starttime="25.45">and</w>
+
+<disfmarker nite:id="EN2001a.A.words31" endtime="25.77" starttime="25.77"/>
+
+<w nite:id="EN2001a.A.words32" endtime="28.27" starttime="28.09">Like</w>
+
+<w nite:id="EN2001a.A.words33" endtime="28.83" starttime="28.27">duplication</w>
+
+<w nite:id="EN2001a.A.words34" endtime="28.96" starttime="28.83">of</w>
+
+<w nite:id="EN2001a.A.words35" endtime="29.26" starttime="28.96">effort</w>
+
+<w nite:id="EN2001a.A.words36" endtime="29.47" starttime="29.26">and</w>
+
+<w nite:id="EN2001a.A.words37" endtime="29.86" starttime="29.47">stuff</w>
+
+<w nite:id="EN2001a.A.words38" endtime="29.86" starttime="29.86" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words39" endtime="32.42" starttime="29.86">and</w>
+
+<w nite:id="EN2001a.A.words40" endtime="32.83" starttime="32.42">um</w>
+
+<disfmarker nite:id="EN2001a.A.words41" endtime="32.83" starttime="32.83"/>
+
+<w nite:id="EN2001a.A.words42" endtime="33.0" starttime="32.83">yeah</w>
+
+<w nite:id="EN2001a.A.words43" endtime="33.0" starttime="33.0" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words44" endtime="33.21" starttime="33.0">he</w>
+
+<w nite:id="EN2001a.A.words45" endtime="33.31" starttime="33.21">was</w>
+
+<w nite:id="EN2001a.A.words46" endtime="33.5" starttime="33.31">saying</w>
+
+<w nite:id="EN2001a.A.words47" endtime="33.59" starttime="33.5">that</w>
+
+<w nite:id="EN2001a.A.words48" endtime="33.65" starttime="33.59">we</w>
+
+<w nite:id="EN2001a.A.words49" endtime="33.83" starttime="33.65">should</w>
+
+<w nite:id="EN2001a.A.words50" endtime="34.55" starttime="33.83">maybe</w>
+
+<w nite:id="EN2001a.A.words51" endtime="34.95" starttime="34.55">uh</w>
+
+<w nite:id="EN2001a.A.words52" endtime="35.18" starttime="34.95">think</w>
+
+<w nite:id="EN2001a.A.words53" endtime="35.34" starttime="35.18">about</w>
+
+<w nite:id="EN2001a.A.words54" endtime="35.6" starttime="35.34">having</w>
+
+<w nite:id="EN2001a.A.words55" endtime="35.63" starttime="35.6">a</w>
+
+<w nite:id="EN2001a.A.words56" endtime="36.71" starttime="35.63">prototype</w>
+
+<w nite:id="EN2001a.A.words57" endtime="36.94" starttime="36.71">for</w>
+
+<w nite:id="EN2001a.A.words58" endtime="37.23" starttime="36.94">week</w>
+
+<w nite:id="EN2001a.A.words59" endtime="38.48" starttime="37.23">six</w>
+
+<w nite:id="EN2001a.A.words60" endtime="38.48" starttime="38.48" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words61" endtime="38.6" starttime="38.48">which</w>
+
+<w nite:id="EN2001a.A.words62" endtime="38.73" starttime="38.6">is</w>
+
+<w nite:id="EN2001a.A.words63" endtime="39.03" starttime="38.73">next</w>
+
+<w nite:id="EN2001a.A.words64" endtime="39.62" starttime="39.03">week</w>
+
+<w nite:id="EN2001a.A.words65" endtime="39.62" starttime="39.62" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words66" endtime="40.05" starttime="39.62">Yeah</w>
+
+<w nite:id="EN2001a.A.words67" endtime="40.05" starttime="40.05" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words68" endtime="43.09" starttime="42.24">So</w>
+
+<w nite:id="EN2001a.A.words69" endtime="43.16" starttime="43.09">we</w>
+
+<w nite:id="EN2001a.A.words70" endtime="43.79" starttime="43.16">should</w>
+
+<w nite:id="EN2001a.A.words71" endtime="44.62" starttime="43.79">probably</w>
+
+<w nite:id="EN2001a.A.words72" endtime="45.41" starttime="44.62">prioritize</w>
+
+<w nite:id="EN2001a.A.words73" endtime="46.77" starttime="45.41">our</w>
+
+<w nite:id="EN2001a.A.words74" endtime="47.46" starttime="46.77">packages</w>
+
+<w nite:id="EN2001a.A.words75" endtime="47.46" starttime="47.46" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words76" endtime="56.89" starttime="56.64">Mm</w>
+
+<w nite:id="EN2001a.A.words77" endtime="56.89" starttime="56.89" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words78" endtime="80.38" starttime="80.02">Yeah</w>
+
+<w nite:id="EN2001a.A.words79" endtime="80.38" starttime="80.38" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words80" endtime="122.14" starttime="121.94">Yeah</w>
+
+<w nite:id="EN2001a.A.words81" endtime="122.14" starttime="122.14" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words82" endtime="156.35" starttime="155.48">Hmm</w>
+
+<w nite:id="EN2001a.A.words83" endtime="156.35" starttime="156.35" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words84" endtime="156.74" starttime="156.35">Has</w>
+
+<w nite:id="EN2001a.A.words85" endtime="156.94" starttime="156.74">has</w>
+
+<w nite:id="EN2001a.A.words86" endtime="157.23" starttime="156.94">anyone</w>
+
+<w nite:id="EN2001a.A.words87" endtime="157.78" starttime="157.23">actually</w>
+
+<w nite:id="EN2001a.A.words88" endtime="158.16" starttime="157.78">looked</w>
+
+<w nite:id="EN2001a.A.words89" endtime="158.25" starttime="158.16">at</w>
+
+<w nite:id="EN2001a.A.words90" endtime="158.48" starttime="158.25">the</w>
+
+<w nite:id="EN2001a.A.words91" endtime="158.83" starttime="158.48">Java</w>
+
+<w nite:id="EN2001a.A.words92" endtime="159.12" starttime="158.83">code</w>
+
+<w nite:id="EN2001a.A.words93" endtime="160.44" starttime="159.12">for</w>
+
+<w nite:id="EN2001a.A.words94" endtime="160.55" starttime="160.44">the</w>
+
+<disfmarker nite:id="EN2001a.A.words95" endtime="160.55" starttime="160.55"/>
+
+<gap nite:id="EN2001a.A.words96" endtime="160.55" starttime="160.55"/>
+
+<w nite:id="EN2001a.A.words97" endtime="160.55" starttime="160.55" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words98" endtime="161.4" starttime="160.55">huh</w>
+
+<w nite:id="EN2001a.A.words99" endtime="161.4" starttime="161.4" punc="true">?</w>
+
+<w nite:id="EN2001a.A.words100" endtime="161.69" starttime="161.4">Hmm</w>
+
+<w nite:id="EN2001a.A.words101" endtime="161.69" starttime="161.69" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words102" endtime="187.18" starttime="186.8">Yeah</w>
+
+<w nite:id="EN2001a.A.words103" endtime="187.18" starttime="187.18" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words104" endtime="187.23" starttime="187.18">I</w>
+
+<w nite:id="EN2001a.A.words105" endtime="187.37" starttime="187.23">think</w>
+
+<w nite:id="EN2001a.A.words106" endtime="187.52" starttime="187.37">so</w>
+
+<w nite:id="EN2001a.A.words107" endtime="187.52" starttime="187.52" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words108" endtime="252.47" starttime="252.27">Yeah</w>
+
+<w nite:id="EN2001a.A.words109" endtime="252.47" starttime="252.47" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words110" endtime="252.55" starttime="252.47">I</w>
+
+<w nite:id="EN2001a.A.words111" endtime="252.74" starttime="252.55">I</w>
+
+<w nite:id="EN2001a.A.words112" endtime="252.91" starttime="252.74">don't</w>
+
+<w nite:id="EN2001a.A.words113" endtime="252.97" starttime="252.91">know</w>
+
+<w nite:id="EN2001a.A.words114" endtime="253.2" starttime="252.97">about</w>
+
+<w nite:id="EN2001a.A.words115" endtime="253.34" starttime="253.2">the</w>
+
+<w nite:id="EN2001a.A.words116" endtime="253.72" starttime="253.34">search</w>
+
+<w nite:id="EN2001a.A.words117" endtime="254.46" starttime="253.72">functionality</w>
+
+<w nite:id="EN2001a.A.words118" endtime="254.46" starttime="254.46" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words119" endtime="254.63" starttime="254.46">that</w>
+
+<w nite:id="EN2001a.A.words120" endtime="255.4" starttime="254.63">might</w>
+
+<w nite:id="EN2001a.A.words121" endtime="255.51" starttime="255.4">be</w>
+
+<w nite:id="EN2001a.A.words122" endtime="256.38" starttime="255.51">online</w>
+
+<w nite:id="EN2001a.A.words123" endtime="256.38" starttime="256.38" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words124" endtime="256.77" starttime="256.38">Depends</w>
+
+<w nite:id="EN2001a.A.words125" endtime="256.84" starttime="256.77">how</w>
+
+<w nite:id="EN2001a.A.words126" endtime="257.1" starttime="256.84">it's</w>
+
+<w nite:id="EN2001a.A.words127" endtime="257.29" starttime="257.1">gonna</w>
+
+<w nite:id="EN2001a.A.words128" endtime="257.5" starttime="257.29">work</w>
+
+<w nite:id="EN2001a.A.words129" endtime="257.5" starttime="257.5" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words130" endtime="266.2" starttime="265.84">Yeah</w>
+
+<w nite:id="EN2001a.A.words131" endtime="266.2" starttime="266.2" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words132" endtime="461.22" starttime="460.98">Mm-hmm</w>
+
+<w nite:id="EN2001a.A.words133" endtime="461.22" starttime="461.22" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words134" endtime="479.75" starttime="479.62">Yeah</w>
+
+<w nite:id="EN2001a.A.words135" endtime="479.75" starttime="479.75" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words136" endtime="479.88" starttime="479.75">that</w>
+
+<w nite:id="EN2001a.A.words137" endtime="480.03" starttime="479.88">makes</w>
+
+<w nite:id="EN2001a.A.words138" endtime="480.4" starttime="480.03">sense</w>
+
+<w nite:id="EN2001a.A.words139" endtime="480.4" starttime="480.4" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words140" endtime="578.58" starttime="578.29">Hmm</w>
+
+<w nite:id="EN2001a.A.words141" endtime="578.58" starttime="578.58" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words142" endtime="655.68" starttime="655.47">Hmm</w>
+
+<w nite:id="EN2001a.A.words143" endtime="655.68" starttime="655.68" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words144" endtime="970.74" starttime="970.6">Yeah</w>
+
+<w nite:id="EN2001a.A.words145" endtime="970.74" starttime="970.74" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words146" endtime="970.82" starttime="970.74">you</w>
+
+<w nite:id="EN2001a.A.words147" endtime="971.12" starttime="970.82">just</w>
+
+<w nite:id="EN2001a.A.words148" endtime="971.82" starttime="971.12">concatenate</w>
+
+<w nite:id="EN2001a.A.words149" endtime="971.97" starttime="971.82">them</w>
+
+<w nite:id="EN2001a.A.words150" endtime="972.37" starttime="971.97">together</w>
+
+<w nite:id="EN2001a.A.words151" endtime="972.37" starttime="972.37" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words152" endtime="1106.27" starttime="1105.95">Hmm</w>
+
+<w nite:id="EN2001a.A.words153" endtime="1106.27" starttime="1106.27" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words154" endtime="1131.77" starttime="1131.46">Yeah</w>
+
+<w nite:id="EN2001a.A.words155" endtime="1131.77" starttime="1131.77" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words156" endtime="1134.56" starttime="1134.46">It</w>
+
+<w nite:id="EN2001a.A.words157" endtime="1134.76" starttime="1134.56">just</w>
+
+<w nite:id="EN2001a.A.words158" endtime="1134.94" starttime="1134.76">means</w>
+
+<w nite:id="EN2001a.A.words159" endtime="1135.07" starttime="1134.94">it</w>
+
+<w nite:id="EN2001a.A.words160" endtime="1135.38" starttime="1135.07">loads</w>
+
+<w nite:id="EN2001a.A.words161" endtime="1135.64" starttime="1135.38">on</w>
+
+<w nite:id="EN2001a.A.words162" endtime="1136.26" starttime="1135.64">demand</w>
+
+<w nite:id="EN2001a.A.words163" endtime="1136.26" starttime="1136.26" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words164" endtime="1136.7" starttime="1136.26">It</w>
+
+<w nite:id="EN2001a.A.words165" endtime="1136.93" starttime="1136.7">only</w>
+
+<w nite:id="EN2001a.A.words166" endtime="1137.91" starttime="1136.93">loads</w>
+
+<w nite:id="EN2001a.A.words167" endtime="1138.1" starttime="1137.91">when</w>
+
+<w nite:id="EN2001a.A.words168" endtime="1138.22" starttime="1138.1">it</w>
+
+<w nite:id="EN2001a.A.words169" endtime="1138.53" starttime="1138.22">needs</w>
+
+<w nite:id="EN2001a.A.words170" endtime="1138.73" starttime="1138.53">a</w>
+
+<w nite:id="EN2001a.A.words171" endtime="1139.78" starttime="1138.73">particular</w>
+
+<w nite:id="EN2001a.A.words172" endtime="1139.99" starttime="1139.78">type</w>
+
+<w nite:id="EN2001a.A.words173" endtime="1140.12" starttime="1139.99">of</w>
+
+<w nite:id="EN2001a.A.words174" endtime="1141.09" starttime="1140.12">file</w>
+
+<w nite:id="EN2001a.A.words175" endtime="1141.09" starttime="1141.09" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words176" endtime="1141.27" starttime="1141.09">Like</w>
+
+<w nite:id="EN2001a.A.words177" endtime="1141.36" starttime="1141.27">when</w>
+
+<w nite:id="EN2001a.A.words178" endtime="1141.47" starttime="1141.36">it's</w>
+
+<w nite:id="EN2001a.A.words179" endtime="1141.62" starttime="1141.47">being</w>
+
+<w nite:id="EN2001a.A.words180" endtime="1142.22" starttime="1141.62">accessed</w>
+
+<w nite:id="EN2001a.A.words181" endtime="1142.22" starttime="1142.22" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words182" endtime="1160.95" starttime="1160.76">Yeah</w>
+
+<w nite:id="EN2001a.A.words183" endtime="1160.95" starttime="1160.95" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words184" endtime="1160.98" starttime="1160.95">I</w>
+
+<w nite:id="EN2001a.A.words185" endtime="1161.2" starttime="1160.98">think</w>
+
+<w nite:id="EN2001a.A.words186" endtime="1161.39" starttime="1161.2">that's</w>
+
+<w nite:id="EN2001a.A.words187" endtime="1161.46" starttime="1161.39">the</w>
+
+<w nite:id="EN2001a.A.words188" endtime="1161.73" starttime="1161.46">idea</w>
+
+<w nite:id="EN2001a.A.words189" endtime="1161.73" starttime="1161.73" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words190" endtime="1161.8" starttime="1161.73">it</w>
+
+<w nite:id="EN2001a.A.words191" endtime="1162.01" starttime="1161.8">just</w>
+
+<w nite:id="EN2001a.A.words192" endtime="1162.62" starttime="1162.01">loads</w>
+
+<w nite:id="EN2001a.A.words193" endtime="1163.2" starttime="1162.62">the</w>
+
+<w nite:id="EN2001a.A.words194" endtime="1163.74" starttime="1163.2">particular</w>
+
+<w nite:id="EN2001a.A.words195" endtime="1164.0" starttime="1163.74">ones</w>
+
+<w nite:id="EN2001a.A.words196" endtime="1164.07" starttime="1164.0">it</w>
+
+<w nite:id="EN2001a.A.words197" endtime="1164.37" starttime="1164.07">needs</w>
+
+<w nite:id="EN2001a.A.words198" endtime="1164.37" starttime="1164.37" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words199" endtime="1167.6" starttime="1167.5">But</w>
+
+<w nite:id="EN2001a.A.words200" endtime="1167.7" starttime="1167.6">if</w>
+
+<w nite:id="EN2001a.A.words201" endtime="1167.77" starttime="1167.7">you</w>
+
+<w nite:id="EN2001a.A.words202" endtime="1167.85" starttime="1167.77">were</w>
+
+<w nite:id="EN2001a.A.words203" endtime="1167.98" starttime="1167.85">doing</w>
+
+<w nite:id="EN2001a.A.words204" endtime="1168.08" starttime="1167.98">a</w>
+
+<w nite:id="EN2001a.A.words205" endtime="1168.4" starttime="1168.08">search</w>
+
+<w nite:id="EN2001a.A.words206" endtime="1168.55" starttime="1168.4">over</w>
+
+<w nite:id="EN2001a.A.words207" endtime="1168.63" starttime="1168.55">the</w>
+
+<w nite:id="EN2001a.A.words208" endtime="1168.79" starttime="1168.63">whole</w>
+
+<w nite:id="EN2001a.A.words209" endtime="1169.18" starttime="1168.79">corpus</w>
+
+<w nite:id="EN2001a.A.words210" endtime="1169.31" starttime="1169.18">you'd</w>
+
+<w nite:id="EN2001a.A.words211" endtime="1169.47" starttime="1169.31">have</w>
+
+<w nite:id="EN2001a.A.words212" endtime="1169.59" starttime="1169.47">to</w>
+
+<w nite:id="EN2001a.A.words213" endtime="1169.79" starttime="1169.59">load</w>
+
+<w nite:id="EN2001a.A.words214" endtime="1169.92" starttime="1169.79">them</w>
+
+<w nite:id="EN2001a.A.words215" endtime="1170.23" starttime="1169.92">all</w>
+
+<w nite:id="EN2001a.A.words216" endtime="1170.23" starttime="1170.23" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words217" endtime="1179.47" starttime="1179.19">Hmm</w>
+
+<w nite:id="EN2001a.A.words218" endtime="1179.47" starttime="1179.47" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words219" endtime="1322.88" starttime="1322.74">Mm</w>
+
+<w nite:id="EN2001a.A.words220" endtime="1322.88" starttime="1322.88" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words221" endtime="1490.49" starttime="1490.28">Hmm</w>
+
+<w nite:id="EN2001a.A.words222" endtime="1490.49" starttime="1490.49" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words223" endtime="1491.83" starttime="1491.68">Yeah</w>
+
+<w nite:id="EN2001a.A.words224" endtime="1491.83" starttime="1491.83" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words225" endtime="1491.89" starttime="1491.83">we</w>
+
+<w nite:id="EN2001a.A.words226" endtime="1491.98" starttime="1491.89">do</w>
+
+<w nite:id="EN2001a.A.words227" endtime="1492.08" starttime="1491.98">not</w>
+
+<w nite:id="EN2001a.A.words228" endtime="1492.24" starttime="1492.08">want</w>
+
+<w nite:id="EN2001a.A.words229" endtime="1492.3" starttime="1492.24">it</w>
+
+<w nite:id="EN2001a.A.words230" endtime="1492.38" starttime="1492.3">in</w>
+
+<disfmarker nite:id="EN2001a.A.words231" endtime="1492.38" starttime="1492.38"/>
+
+<w nite:id="EN2001a.A.words232" endtime="1492.5" starttime="1492.38">to</w>
+
+<w nite:id="EN2001a.A.words233" endtime="1492.77" starttime="1492.5">develop</w>
+
+<w nite:id="EN2001a.A.words234" endtime="1492.8" starttime="1492.77">a</w>
+
+<w nite:id="EN2001a.A.words235" endtime="1492.98" starttime="1492.8">little</w>
+
+<w nite:id="EN2001a.A.words236" endtime="1493.27" starttime="1492.98">tree</w>
+
+<w nite:id="EN2001a.A.words237" endtime="1493.67" starttime="1493.27">display</w>
+
+<w nite:id="EN2001a.A.words238" endtime="1493.76" starttime="1493.67">as</w>
+
+<w nite:id="EN2001a.A.words239" endtime="1494.04" starttime="1493.76">well</w>
+
+<w nite:id="EN2001a.A.words240" endtime="1494.33" starttime="1494.04">for</w>
+
+<w nite:id="EN2001a.A.words241" endtime="1494.84" starttime="1494.33">multiple</w>
+
+<w nite:id="EN2001a.A.words242" endtime="1495.21" starttime="1494.84">results</w>
+
+<w nite:id="EN2001a.A.words243" endtime="1495.21" starttime="1495.21" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words244" endtime="1497.34" starttime="1497.04">Yeah</w>
+
+<w nite:id="EN2001a.A.words245" endtime="1497.34" starttime="1497.34" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words246" endtime="1497.44" starttime="1497.34">but</w>
+
+<w nite:id="EN2001a.A.words247" endtime="1497.72" starttime="1497.44">that'd</w>
+
+<w nite:id="EN2001a.A.words248" endtime="1497.95" starttime="1497.72">be</w>
+
+<w nite:id="EN2001a.A.words249" endtime="1498.22" starttime="1497.95">quite</w>
+
+<w nite:id="EN2001a.A.words250" endtime="1498.4" starttime="1498.22">easy</w>
+
+<w nite:id="EN2001a.A.words251" endtime="1498.49" starttime="1498.4">to</w>
+
+<w nite:id="EN2001a.A.words252" endtime="1498.64" starttime="1498.49">do</w>
+
+<w nite:id="EN2001a.A.words253" endtime="1498.64" starttime="1498.64" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words254" endtime="1503.63" starttime="1503.52">You</w>
+
+<w nite:id="EN2001a.A.words255" endtime="1503.82" starttime="1503.63">just</w>
+
+<w nite:id="EN2001a.A.words256" endtime="1503.93" starttime="1503.82">need</w>
+
+<w nite:id="EN2001a.A.words257" endtime="1504.0" starttime="1503.93">to</w>
+
+<w nite:id="EN2001a.A.words258" endtime="1504.2" starttime="1504.0">find</w>
+
+<w nite:id="EN2001a.A.words259" endtime="1504.26" starttime="1504.2">the</w>
+
+<w nite:id="EN2001a.A.words260" endtime="1504.54" starttime="1504.26">time</w>
+
+<w nite:id="EN2001a.A.words261" endtime="1504.9" starttime="1504.54">stamp</w>
+
+<w nite:id="EN2001a.A.words262" endtime="1504.9" starttime="1504.9" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words263" endtime="1510.64" starttime="1510.24">Yeah</w>
+
+<w nite:id="EN2001a.A.words264" endtime="1510.64" starttime="1510.64" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words265" endtime="1549.4" starttime="1549.12">Yeah</w>
+
+<w nite:id="EN2001a.A.words266" endtime="1549.4" starttime="1549.4" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words267" endtime="1639.08" starttime="1638.86">Yeah</w>
+
+<w nite:id="EN2001a.A.words268" endtime="1639.08" starttime="1639.08" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words269" endtime="1639.15" starttime="1639.08">I</w>
+
+<w nite:id="EN2001a.A.words270" endtime="1639.59" starttime="1639.15">think</w>
+
+<w nite:id="EN2001a.A.words271" endtime="1639.68" starttime="1639.59">I</w>
+
+<w nite:id="EN2001a.A.words272" endtime="1639.88" starttime="1639.68">think</w>
+
+<w nite:id="EN2001a.A.words273" endtime="1640.03" starttime="1639.88">those</w>
+
+<w nite:id="EN2001a.A.words274" endtime="1641.0" starttime="1640.03">segments</w>
+
+<w nite:id="EN2001a.A.words275" endtime="1641.31" starttime="1641.0">for</w>
+
+<w nite:id="EN2001a.A.words276" endtime="1641.55" starttime="1641.31">each</w>
+
+<w nite:id="EN2001a.A.words277" endtime="1642.35" starttime="1641.55">utterance</w>
+
+<w nite:id="EN2001a.A.words278" endtime="1642.44" starttime="1642.35">are</w>
+
+<w nite:id="EN2001a.A.words279" endtime="1642.73" starttime="1642.44">split</w>
+
+<w nite:id="EN2001a.A.words280" endtime="1642.96" starttime="1642.73">up</w>
+
+<w nite:id="EN2001a.A.words281" endtime="1642.96" starttime="1642.96" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words282" endtime="1644.36" starttime="1644.2">Think</w>
+
+<w nite:id="EN2001a.A.words283" endtime="1644.62" starttime="1644.36">so</w>
+
+<w nite:id="EN2001a.A.words284" endtime="1644.62" starttime="1644.62" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words285" endtime="1663.59" starttime="1663.46">Yeah</w>
+
+<w nite:id="EN2001a.A.words286" endtime="1663.59" starttime="1663.59" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words287" endtime="1663.68" starttime="1663.59">I'm</w>
+
+<w nite:id="EN2001a.A.words288" endtime="1663.88" starttime="1663.68">pretty</w>
+
+<w nite:id="EN2001a.A.words289" endtime="1664.11" starttime="1663.88">sure</w>
+
+<w nite:id="EN2001a.A.words290" endtime="1664.26" starttime="1664.11">it's</w>
+
+<w nite:id="EN2001a.A.words291" endtime="1664.57" starttime="1664.26">already</w>
+
+<w nite:id="EN2001a.A.words292" endtime="1665.4" starttime="1664.57">there</w>
+
+<w nite:id="EN2001a.A.words293" endtime="1665.4" starttime="1665.4" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words294" endtime="1665.6" starttime="1665.4">Pretty</w>
+
+<w nite:id="EN2001a.A.words295" endtime="1665.74" starttime="1665.6">sure</w>
+
+<w nite:id="EN2001a.A.words296" endtime="1665.96" starttime="1665.74">that's</w>
+
+<w nite:id="EN2001a.A.words297" endtime="1666.21" starttime="1665.96">already</w>
+
+<w nite:id="EN2001a.A.words298" endtime="1666.38" starttime="1666.21">there</w>
+
+<w nite:id="EN2001a.A.words299" endtime="1666.38" starttime="1666.38" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words300" endtime="1667.1" starttime="1666.38">The</w>
+
+<w nite:id="EN2001a.A.words301" endtime="1667.82" starttime="1667.1">the</w>
+
+<w nite:id="EN2001a.A.words302" endtime="1668.44" starttime="1667.82">utterances</w>
+
+<w nite:id="EN2001a.A.words303" endtime="1668.55" starttime="1668.44">are</w>
+
+<w nite:id="EN2001a.A.words304" endtime="1668.93" starttime="1668.55">numbered</w>
+
+<w nite:id="EN2001a.A.words305" endtime="1668.93" starttime="1668.93" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words306" endtime="1705.05" starttime="1704.79">Hmm</w>
+
+<w nite:id="EN2001a.A.words307" endtime="1705.05" starttime="1705.05" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words308" endtime="1711.78" starttime="1711.59">Yeah</w>
+
+<w nite:id="EN2001a.A.words309" endtime="1711.78" starttime="1711.78" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words310" endtime="1711.82" starttime="1711.78">I</w>
+
+<w nite:id="EN2001a.A.words311" endtime="1712.0" starttime="1711.82">think</w>
+
+<w nite:id="EN2001a.A.words312" endtime="1712.18" starttime="1712.0">so</w>
+
+<w nite:id="EN2001a.A.words313" endtime="1712.18" starttime="1712.18" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words314" endtime="1746.17" starttime="1745.65" trunc="true">Ye</w>
+
+<w nite:id="EN2001a.A.words315" endtime="1746.42" starttime="1746.17">that's</w>
+
+<w nite:id="EN2001a.A.words316" endtime="1746.58" starttime="1746.42">the</w>
+
+<w nite:id="EN2001a.A.words317" endtime="1747.03" starttime="1746.58">impression</w>
+
+<w nite:id="EN2001a.A.words318" endtime="1747.11" starttime="1747.03">I</w>
+
+<w nite:id="EN2001a.A.words319" endtime="1747.34" starttime="1747.11">get</w>
+
+<w nite:id="EN2001a.A.words320" endtime="1747.34" starttime="1747.34" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words321" endtime="1747.59" starttime="1747.34">yeah</w>
+
+<w nite:id="EN2001a.A.words322" endtime="1747.59" starttime="1747.59" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words323" endtime="1752.42" starttime="1752.23">Oh</w>
+
+<w nite:id="EN2001a.A.words324" endtime="1752.42" starttime="1752.42" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words325" endtime="1783.86" starttime="1783.64">Hmm</w>
+
+<w nite:id="EN2001a.A.words326" endtime="1783.86" starttime="1783.86" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words327" endtime="1786.21" starttime="1786.1" trunc="true">Ye</w>
+
+<w nite:id="EN2001a.A.words328" endtime="1787.43" starttime="1787.21">Mm</w>
+
+<w nite:id="EN2001a.A.words329" endtime="1787.43" starttime="1787.43" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words330" endtime="1791.56" starttime="1791.01">Yeah</w>
+
+<w nite:id="EN2001a.A.words331" endtime="1791.56" starttime="1791.56" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words332" endtime="1791.6" starttime="1791.56">uh</w>
+
+<disfmarker nite:id="EN2001a.A.words333" endtime="1791.6" starttime="1791.6"/>
+
+<w nite:id="EN2001a.A.words334" endtime="1814.35" starttime="1814.18">Right</w>
+
+<w nite:id="EN2001a.A.words335" endtime="1814.35" starttime="1814.35" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words336" endtime="1841.12" starttime="1840.72">Okay</w>
+
+<w nite:id="EN2001a.A.words337" endtime="1841.12" starttime="1841.12" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words338" endtime="1850.85" starttime="1850.38">Topics</w>
+
+<w nite:id="EN2001a.A.words339" endtime="1850.85" starttime="1850.85" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words340" endtime="1851.11" starttime="1850.85">yeah</w>
+
+<w nite:id="EN2001a.A.words341" endtime="1851.11" starttime="1851.11" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words342" endtime="1859.14" starttime="1858.96">Yeah</w>
+
+<w nite:id="EN2001a.A.words343" endtime="1859.14" starttime="1859.14" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words344" endtime="1859.17" starttime="1859.14">I</w>
+
+<w nite:id="EN2001a.A.words345" endtime="1859.36" starttime="1859.17">think</w>
+
+<w nite:id="EN2001a.A.words346" endtime="1859.52" starttime="1859.36">that's</w>
+
+<w nite:id="EN2001a.A.words347" endtime="1859.6" starttime="1859.52">the</w>
+
+<w nite:id="EN2001a.A.words348" endtime="1859.71" starttime="1859.6">right</w>
+
+<w nite:id="EN2001a.A.words349" endtime="1859.86" starttime="1859.71">one</w>
+
+<w nite:id="EN2001a.A.words350" endtime="1859.86" starttime="1859.86" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words351" endtime="1871.03" starttime="1870.8">Hmm</w>
+
+<w nite:id="EN2001a.A.words352" endtime="1871.03" starttime="1871.03" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words353" endtime="1888.25" starttime="1888.04">Hmm</w>
+
+<w nite:id="EN2001a.A.words354" endtime="1888.25" starttime="1888.25" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words355" endtime="1892.62" starttime="1892.36">Mm-hmm</w>
+
+<w nite:id="EN2001a.A.words356" endtime="1892.62" starttime="1892.62" punc="true">.</w>
+
+<vocalsound nite:id="EN2001a.A.words357" endtime="1910.61" starttime="1910.23" type="other"/>
+
+<w nite:id="EN2001a.A.words358" endtime="2026.78" starttime="2026.47">Mm</w>
+
+<w nite:id="EN2001a.A.words359" endtime="2026.78" starttime="2026.78" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words360" endtime="2060.09" starttime="2059.91">Hmm</w>
+
+<w nite:id="EN2001a.A.words361" endtime="2060.09" starttime="2060.09" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words362" endtime="2101.79" starttime="2101.65">Yeah</w>
+
+<w nite:id="EN2001a.A.words363" endtime="2101.79" starttime="2101.79" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words364" endtime="2101.94" starttime="2101.79">that'd</w>
+
+<w nite:id="EN2001a.A.words365" endtime="2102.03" starttime="2101.94">be</w>
+
+<w nite:id="EN2001a.A.words366" endtime="2102.23" starttime="2102.03">much</w>
+
+<w nite:id="EN2001a.A.words367" endtime="2102.4" starttime="2102.23">more</w>
+
+<w nite:id="EN2001a.A.words368" endtime="2102.82" starttime="2102.4">efficient</w>
+
+<w nite:id="EN2001a.A.words369" endtime="2102.9" starttime="2102.82">to</w>
+
+<w nite:id="EN2001a.A.words370" endtime="2103.05" starttime="2102.9">do</w>
+
+<w nite:id="EN2001a.A.words371" endtime="2103.35" starttime="2103.05">that</w>
+
+<w nite:id="EN2001a.A.words372" endtime="2103.35" starttime="2103.35" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words373" endtime="2103.58" starttime="2103.35">Yeah</w>
+
+<w nite:id="EN2001a.A.words374" endtime="2103.58" starttime="2103.58" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words375" endtime="2169.88" starttime="2169.56">Hmm</w>
+
+<w nite:id="EN2001a.A.words376" endtime="2169.88" starttime="2169.88" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words377" endtime="2188.16" starttime="2188.06">Hmm</w>
+
+<w nite:id="EN2001a.A.words378" endtime="2188.16" starttime="2188.16" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words379" endtime="2252.71" starttime="2252.6">Yeah</w>
+
+<w nite:id="EN2001a.A.words380" endtime="2252.71" starttime="2252.71" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words381" endtime="2252.83" starttime="2252.71">you're</w>
+
+<w nite:id="EN2001a.A.words382" endtime="2252.95" starttime="2252.83">able</w>
+
+<w nite:id="EN2001a.A.words383" endtime="2253.1" starttime="2252.95">to</w>
+
+<w nite:id="EN2001a.A.words384" endtime="2253.21" starttime="2253.1">do</w>
+
+<w nite:id="EN2001a.A.words385" endtime="2253.3" starttime="2253.21">that</w>
+
+<w nite:id="EN2001a.A.words386" endtime="2253.39" starttime="2253.3">in</w>
+
+<w nite:id="EN2001a.A.words387" endtime="2253.72" starttime="2253.39">Java</w>
+
+<w nite:id="EN2001a.A.words388" endtime="2253.72" starttime="2253.72" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words389" endtime="2253.92" starttime="2253.72">yeah</w>
+
+<w nite:id="EN2001a.A.words390" endtime="2253.92" starttime="2253.92" punc="true">?</w>
+
+<w nite:id="EN2001a.A.words391" endtime="2255.97" starttime="2255.73">Yeah</w>
+
+<w nite:id="EN2001a.A.words392" endtime="2255.97" starttime="2255.97" punc="true">.</w>
+
+<vocalsound nite:id="EN2001a.A.words393" endtime="2257.05" starttime="2256.72" type="other"/>
+
+<w nite:id="EN2001a.A.words394" endtime="2278.18" starttime="2278.06">Huh</w>
+
+<w nite:id="EN2001a.A.words395" endtime="2278.18" starttime="2278.18" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words396" endtime="2311.49" starttime="2311.17">Hmm</w>
+
+<w nite:id="EN2001a.A.words397" endtime="2311.49" starttime="2311.49" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words398" endtime="2328.58" starttime="2328.29">Yeah</w>
+
+<w nite:id="EN2001a.A.words399" endtime="2328.58" starttime="2328.58" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words400" endtime="2328.71" starttime="2328.58">I've</w>
+
+<w nite:id="EN2001a.A.words401" endtime="2328.91" starttime="2328.71">had</w>
+
+<w nite:id="EN2001a.A.words402" endtime="2329.22" starttime="2328.91">a</w>
+
+<w nite:id="EN2001a.A.words403" endtime="2329.52" starttime="2329.22" trunc="true">b</w>
+
+<w nite:id="EN2001a.A.words404" endtime="2329.72" starttime="2329.52">I've</w>
+
+<w nite:id="EN2001a.A.words405" endtime="2329.85" starttime="2329.72">had</w>
+
+<w nite:id="EN2001a.A.words406" endtime="2329.9" starttime="2329.85">a</w>
+
+<w nite:id="EN2001a.A.words407" endtime="2330.11" starttime="2329.9">look</w>
+
+<w nite:id="EN2001a.A.words408" endtime="2330.25" starttime="2330.11">at</w>
+
+<w nite:id="EN2001a.A.words409" endtime="2330.8" starttime="2330.25">the</w>
+
+<w nite:id="EN2001a.A.words410" endtime="2331.22" starttime="2330.8">the</w>
+
+<w nite:id="EN2001a.A.words411" endtime="2331.58" starttime="2331.22">topic</w>
+
+<w nite:id="EN2001a.A.words412" endtime="2332.22" starttime="2331.58">segments</w>
+
+<w nite:id="EN2001a.A.words413" endtime="2332.22" starttime="2332.22" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words414" endtime="2332.38" starttime="2332.22">how</w>
+
+<w nite:id="EN2001a.A.words415" endtime="2332.58" starttime="2332.38">it's</w>
+
+<w nite:id="EN2001a.A.words416" endtime="2333.93" starttime="2332.58">stored</w>
+
+<w nite:id="EN2001a.A.words417" endtime="2333.93" starttime="2333.93" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words418" endtime="2334.24" starttime="2333.93">And</w>
+
+<w nite:id="EN2001a.A.words419" endtime="2335.43" starttime="2334.24">then</w>
+
+<disfmarker nite:id="EN2001a.A.words420" endtime="2335.43" starttime="2335.43"/>
+
+<w nite:id="EN2001a.A.words421" endtime="2335.62" starttime="2335.43">yeah</w>
+
+<w nite:id="EN2001a.A.words422" endtime="2335.62" starttime="2335.62" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words423" endtime="2335.75" starttime="2335.62" trunc="true">th</w>
+
+<w nite:id="EN2001a.A.words424" endtime="2335.95" starttime="2335.75">those</w>
+
+<w nite:id="EN2001a.A.words425" endtime="2336.04" starttime="2335.95">are</w>
+
+<w nite:id="EN2001a.A.words426" endtime="2336.28" starttime="2336.04">few</w>
+
+<w nite:id="EN2001a.A.words427" endtime="2336.46" starttime="2336.28">per</w>
+
+<w nite:id="EN2001a.A.words428" endtime="2337.0" starttime="2336.46">meeting</w>
+
+<w nite:id="EN2001a.A.words429" endtime="2337.0" starttime="2337.0" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words430" endtime="2337.29" starttime="2337.0">and</w>
+
+<w nite:id="EN2001a.A.words431" endtime="2338.61" starttime="2337.29">it</w>
+
+<disfmarker nite:id="EN2001a.A.words432" endtime="2338.61" starttime="2338.61"/>
+
+<w nite:id="EN2001a.A.words433" endtime="2339.0" starttime="2338.61">um</w>
+
+<w nite:id="EN2001a.A.words434" endtime="2339.22" starttime="2339.0">well</w>
+
+<w nite:id="EN2001a.A.words435" endtime="2339.22" starttime="2339.22" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words436" endtime="2339.29" starttime="2339.22">it</w>
+
+<w nite:id="EN2001a.A.words437" endtime="2339.46" starttime="2339.29">gives</w>
+
+<w nite:id="EN2001a.A.words438" endtime="2339.54" starttime="2339.46">a</w>
+
+<w nite:id="EN2001a.A.words439" endtime="2339.78" starttime="2339.54">time</w>
+
+<w nite:id="EN2001a.A.words440" endtime="2340.13" starttime="2339.78">stamp</w>
+
+<w nite:id="EN2001a.A.words441" endtime="2340.27" starttime="2340.13">and</w>
+
+<w nite:id="EN2001a.A.words442" endtime="2340.69" starttime="2340.27">inside</w>
+
+<w nite:id="EN2001a.A.words443" endtime="2340.84" starttime="2340.69">each</w>
+
+<w nite:id="EN2001a.A.words444" endtime="2341.1" starttime="2340.84">one</w>
+
+<w nite:id="EN2001a.A.words445" endtime="2341.37" starttime="2341.1">there's</w>
+
+<w nite:id="EN2001a.A.words446" endtime="2342.26" starttime="2341.37">uh</w>
+
+<w nite:id="EN2001a.A.words447" endtime="2342.42" starttime="2342.26">the</w>
+
+<w nite:id="EN2001a.A.words448" endtime="2342.67" starttime="2342.42">actual</w>
+
+<w nite:id="EN2001a.A.words449" endtime="2342.88" starttime="2342.67">like</w>
+
+<w nite:id="EN2001a.A.words450" endtime="2343.62" starttime="2342.88">utterance</w>
+
+<w nite:id="EN2001a.A.words451" endtime="2344.25" starttime="2343.62">segments</w>
+
+<w nite:id="EN2001a.A.words452" endtime="2344.25" starttime="2344.25" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words453" endtime="2345.81" starttime="2345.35">And</w>
+
+<w nite:id="EN2001a.A.words454" endtime="2346.04" starttime="2345.81">the</w>
+
+<w nite:id="EN2001a.A.words455" endtime="2346.27" starttime="2346.04">list</w>
+
+<w nite:id="EN2001a.A.words456" endtime="2346.33" starttime="2346.27">of</w>
+
+<w nite:id="EN2001a.A.words457" endtime="2346.53" starttime="2346.33">them</w>
+
+<w nite:id="EN2001a.A.words458" endtime="2346.65" starttime="2346.53">that</w>
+
+<w nite:id="EN2001a.A.words459" endtime="2346.93" starttime="2346.65">occurred</w>
+
+<w nite:id="EN2001a.A.words460" endtime="2346.93" starttime="2346.93" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words461" endtime="2347.11" starttime="2346.93">And</w>
+
+<w nite:id="EN2001a.A.words462" endtime="2347.2" starttime="2347.11">they're</w>
+
+<w nite:id="EN2001a.A.words463" endtime="2347.34" starttime="2347.2">all</w>
+
+<w nite:id="EN2001a.A.words464" endtime="2347.74" starttime="2347.34">numbered</w>
+
+<w nite:id="EN2001a.A.words465" endtime="2347.74" starttime="2347.74" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words466" endtime="2349.71" starttime="2349.22">Um</w>
+
+<w nite:id="EN2001a.A.words467" endtime="2349.82" starttime="2349.71">so</w>
+
+<w nite:id="EN2001a.A.words468" endtime="2350.0" starttime="2349.82">that's</w>
+
+<w nite:id="EN2001a.A.words469" endtime="2350.11" starttime="2350.0">where</w>
+
+<w nite:id="EN2001a.A.words470" endtime="2350.32" starttime="2350.11">that's</w>
+
+<w nite:id="EN2001a.A.words471" endtime="2350.76" starttime="2350.32">stored</w>
+
+<w nite:id="EN2001a.A.words472" endtime="2350.76" starttime="2350.76" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words473" endtime="2358.52" starttime="2358.32">Yeah</w>
+
+<w nite:id="EN2001a.A.words474" endtime="2358.52" starttime="2358.52" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words475" endtime="2358.62" starttime="2358.52">so</w>
+
+<w nite:id="EN2001a.A.words476" endtime="2358.67" starttime="2358.62">I</w>
+
+<w nite:id="EN2001a.A.words477" endtime="2359.34" starttime="2358.67">guess</w>
+
+<w nite:id="EN2001a.A.words478" endtime="2359.88" starttime="2359.34">um</w>
+
+<w nite:id="EN2001a.A.words479" endtime="2359.98" starttime="2359.88">if</w>
+
+<w nite:id="EN2001a.A.words480" endtime="2360.09" starttime="2359.98">I'm</w>
+
+<w nite:id="EN2001a.A.words481" endtime="2360.38" starttime="2360.09">gonna</w>
+
+<w nite:id="EN2001a.A.words482" endtime="2360.52" starttime="2360.38">be</w>
+
+<w nite:id="EN2001a.A.words483" endtime="2361.16" starttime="2360.52">segmenting</w>
+
+<w nite:id="EN2001a.A.words484" endtime="2361.97" starttime="2361.16">it</w>
+
+<w nite:id="EN2001a.A.words485" endtime="2362.24" starttime="2361.97">with</w>
+
+<w nite:id="EN2001a.A.words486" endtime="2362.59" starttime="2362.24">a</w>
+
+<w nite:id="EN2001a.A.words487" endtime="2362.91" starttime="2362.59">L_C_</w>
+
+<w nite:id="EN2001a.A.words488" endtime="2363.34" starttime="2362.91" mispronounced="true">seg</w>
+
+<w nite:id="EN2001a.A.words489" endtime="2363.48" starttime="2363.34">then</w>
+
+<w nite:id="EN2001a.A.words490" endtime="2363.74" starttime="2363.48">that's</w>
+
+<w nite:id="EN2001a.A.words491" endtime="2363.97" starttime="2363.74">like</w>
+
+<w nite:id="EN2001a.A.words492" endtime="2364.26" starttime="2363.97">same</w>
+
+<w nite:id="EN2001a.A.words493" endtime="2364.61" starttime="2364.26">format</w>
+
+<w nite:id="EN2001a.A.words494" endtime="2364.8" starttime="2364.61">I'd</w>
+
+<w nite:id="EN2001a.A.words495" endtime="2365.02" starttime="2364.8">want</w>
+
+<w nite:id="EN2001a.A.words496" endtime="2365.87" starttime="2365.02">to</w>
+
+<w nite:id="EN2001a.A.words497" endtime="2366.57" starttime="2365.87">um</w>
+
+<w nite:id="EN2001a.A.words498" endtime="2366.7" starttime="2366.57">put</w>
+
+<w nite:id="EN2001a.A.words499" endtime="2366.79" starttime="2366.7">it</w>
+
+<w nite:id="EN2001a.A.words500" endtime="2367.03" starttime="2366.79">back</w>
+
+<w nite:id="EN2001a.A.words501" endtime="2367.16" starttime="2367.03">out</w>
+
+<w nite:id="EN2001a.A.words502" endtime="2367.52" starttime="2367.16">in</w>
+
+<w nite:id="EN2001a.A.words503" endtime="2367.65" starttime="2367.52">so</w>
+
+<w nite:id="EN2001a.A.words504" endtime="2367.79" starttime="2367.65">it'd</w>
+
+<w nite:id="EN2001a.A.words505" endtime="2368.7" starttime="2367.79">be</w>
+
+<w nite:id="EN2001a.A.words506" endtime="2369.21" starttime="2368.7">equivalent</w>
+
+<w nite:id="EN2001a.A.words507" endtime="2369.21" starttime="2369.21" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words508" endtime="2380.82" starttime="2380.72">Well</w>
+
+<w nite:id="EN2001a.A.words509" endtime="2380.82" starttime="2380.82" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words510" endtime="2380.93" starttime="2380.82">like</w>
+
+<w nite:id="EN2001a.A.words511" endtime="2381.06" starttime="2380.93">the</w>
+
+<w nite:id="EN2001a.A.words512" endtime="2382.38" starttime="2381.06">integration</w>
+
+<w nite:id="EN2001a.A.words513" endtime="2382.38" starttime="2382.38" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words514" endtime="2382.47" starttime="2382.38">What</w>
+
+<w nite:id="EN2001a.A.words515" endtime="2382.53" starttime="2382.47">do</w>
+
+<w nite:id="EN2001a.A.words516" endtime="2382.59" starttime="2382.53">you</w>
+
+<w nite:id="EN2001a.A.words517" endtime="2382.69" starttime="2382.59">mean</w>
+
+<w nite:id="EN2001a.A.words518" endtime="2382.69" starttime="2382.69" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words519" endtime="2383.35" starttime="2382.69">integration</w>
+
+<w nite:id="EN2001a.A.words520" endtime="2383.35" starttime="2383.35" punc="true">?</w>
+
+<w nite:id="EN2001a.A.words521" endtime="2388.23" starttime="2387.76">Hmm</w>
+
+<w nite:id="EN2001a.A.words522" endtime="2388.23" starttime="2388.23" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words523" endtime="2391.54" starttime="2391.48">I</w>
+
+<w nite:id="EN2001a.A.words524" endtime="2391.69" starttime="2391.54">don't</w>
+
+<w nite:id="EN2001a.A.words525" endtime="2391.75" starttime="2391.69">know</w>
+
+<w nite:id="EN2001a.A.words526" endtime="2391.75" starttime="2391.75" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words527" endtime="2391.83" starttime="2391.75">I</w>
+
+<w nite:id="EN2001a.A.words528" endtime="2391.95" starttime="2391.83">don't</w>
+
+<w nite:id="EN2001a.A.words529" endtime="2392.09" starttime="2391.95">think</w>
+
+<w nite:id="EN2001a.A.words530" endtime="2392.38" starttime="2392.09">anyone's</w>
+
+<w nite:id="EN2001a.A.words531" endtime="2392.51" starttime="2392.38">been</w>
+
+<w nite:id="EN2001a.A.words532" endtime="2393.03" starttime="2392.51">allocated</w>
+
+<w nite:id="EN2001a.A.words533" endtime="2393.13" starttime="2393.03">to</w>
+
+<w nite:id="EN2001a.A.words534" endtime="2393.26" starttime="2393.13">do</w>
+
+<w nite:id="EN2001a.A.words535" endtime="2393.46" starttime="2393.26">that</w>
+
+<w nite:id="EN2001a.A.words536" endtime="2393.71" starttime="2393.46">yet</w>
+
+<w nite:id="EN2001a.A.words537" endtime="2393.71" starttime="2393.71" punc="true">.</w>
+
+<vocalsound nite:id="EN2001a.A.words538" endtime="2394.02" starttime="2393.71" type="laugh"/>
+
+<vocalsound nite:id="EN2001a.A.words539" endtime="2395.74" starttime="2395.5" type="laugh"/>
+
+<w nite:id="EN2001a.A.words540" endtime="2401.22" starttime="2400.98">Yeah</w>
+
+<w nite:id="EN2001a.A.words541" endtime="2401.22" starttime="2401.22" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words542" endtime="2401.36" starttime="2401.22">yeah</w>
+
+<w nite:id="EN2001a.A.words543" endtime="2401.36" starttime="2401.36" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words544" endtime="2403.43" starttime="2403.25">Yeah</w>
+
+<w nite:id="EN2001a.A.words545" endtime="2403.43" starttime="2403.43" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words546" endtime="2403.8" starttime="2403.43">definitely</w>
+
+<w nite:id="EN2001a.A.words547" endtime="2403.8" starttime="2403.8" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words548" endtime="2420.87" starttime="2420.21">Hmm</w>
+
+<w nite:id="EN2001a.A.words549" endtime="2420.87" starttime="2420.87" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words550" endtime="2421.11" starttime="2420.87">yeah</w>
+
+<w nite:id="EN2001a.A.words551" endtime="2421.11" starttime="2421.11" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words552" endtime="2431.83" starttime="2431.62">Yeah</w>
+
+<w nite:id="EN2001a.A.words553" endtime="2431.83" starttime="2431.83" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words554" endtime="2432.0" starttime="2431.83">it</w>
+
+<w nite:id="EN2001a.A.words555" endtime="2432.11" starttime="2432.0" trunc="true">c</w>
+
+<w nite:id="EN2001a.A.words556" endtime="2432.34" starttime="2432.11">could</w>
+
+<w nite:id="EN2001a.A.words557" endtime="2432.44" starttime="2432.34">be</w>
+
+<w nite:id="EN2001a.A.words558" endtime="2432.94" starttime="2432.44">difficult</w>
+
+<w nite:id="EN2001a.A.words559" endtime="2432.94" starttime="2432.94" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words560" endtime="2433.32" starttime="2432.94">yeah</w>
+
+<w nite:id="EN2001a.A.words561" endtime="2433.32" starttime="2433.32" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words562" endtime="2447.94" starttime="2447.6">Yeah</w>
+
+<w nite:id="EN2001a.A.words563" endtime="2447.94" starttime="2447.94" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words564" endtime="2449.29" starttime="2449.19">Well</w>
+
+<w nite:id="EN2001a.A.words565" endtime="2449.33" starttime="2449.29">I</w>
+
+<w nite:id="EN2001a.A.words566" endtime="2449.56" starttime="2449.33">guess</w>
+
+<w nite:id="EN2001a.A.words567" endtime="2449.64" starttime="2449.56">the</w>
+
+<w nite:id="EN2001a.A.words568" endtime="2450.0" starttime="2449.64">important</w>
+
+<w nite:id="EN2001a.A.words569" endtime="2450.15" starttime="2450.0">thing</w>
+
+<w nite:id="EN2001a.A.words570" endtime="2450.26" starttime="2450.15">is</w>
+
+<w nite:id="EN2001a.A.words571" endtime="2450.36" starttime="2450.26">to</w>
+
+<w nite:id="EN2001a.A.words572" endtime="2450.91" starttime="2450.36">get</w>
+
+<w nite:id="EN2001a.A.words573" endtime="2451.81" starttime="2450.91">the</w>
+
+<w nite:id="EN2001a.A.words574" endtime="2452.41" starttime="2451.81">crucial</w>
+
+<w nite:id="EN2001a.A.words575" endtime="2452.71" starttime="2452.41" trunc="true">m</w>
+
+<w nite:id="EN2001a.A.words576" endtime="2453.41" starttime="2452.71">modules</w>
+
+<w nite:id="EN2001a.A.words577" endtime="2453.71" starttime="2453.41">built</w>
+
+<w nite:id="EN2001a.A.words578" endtime="2453.71" starttime="2453.71" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words579" endtime="2455.55" starttime="2455.05" trunc="true">Ye</w>
+
+<w nite:id="EN2001a.A.words580" endtime="2456.04" starttime="2455.55">yeah</w>
+
+<w nite:id="EN2001a.A.words581" endtime="2456.04" starttime="2456.04" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words582" endtime="2457.94" starttime="2457.6">Yeah</w>
+
+<w nite:id="EN2001a.A.words583" endtime="2457.94" starttime="2457.94" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words584" endtime="2458.15" starttime="2457.94">and</w>
+
+<w nite:id="EN2001a.A.words585" endtime="2458.45" starttime="2458.15">then</w>
+
+<disfmarker nite:id="EN2001a.A.words586" endtime="2458.45" starttime="2458.45"/>
+
+<w nite:id="EN2001a.A.words587" endtime="2460.85" starttime="2460.68">Yeah</w>
+
+<w nite:id="EN2001a.A.words588" endtime="2460.85" starttime="2460.85" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words589" endtime="2460.96" starttime="2460.85">and</w>
+
+<w nite:id="EN2001a.A.words590" endtime="2461.09" starttime="2460.96">then</w>
+
+<w nite:id="EN2001a.A.words591" endtime="2461.22" starttime="2461.09">we'll</w>
+
+<w nite:id="EN2001a.A.words592" endtime="2461.45" starttime="2461.22">maybe</w>
+
+<w nite:id="EN2001a.A.words593" endtime="2461.65" starttime="2461.45">have</w>
+
+<w nite:id="EN2001a.A.words594" endtime="2462.22" starttime="2461.65">to</w>
+
+<w nite:id="EN2001a.A.words595" endtime="2463.51" starttime="2462.22">prioritize</w>
+
+<w nite:id="EN2001a.A.words596" endtime="2463.92" starttime="2463.51">somebody</w>
+
+<w nite:id="EN2001a.A.words597" endtime="2465.01" starttime="2463.92">into</w>
+
+<w nite:id="EN2001a.A.words598" endtime="2465.2" starttime="2465.01">just</w>
+
+<w nite:id="EN2001a.A.words599" endtime="2465.69" starttime="2465.2">integrating</w>
+
+<w nite:id="EN2001a.A.words600" endtime="2465.84" starttime="2465.69">it</w>
+
+<w nite:id="EN2001a.A.words601" endtime="2465.84" starttime="2465.84" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words602" endtime="2617.42" starttime="2617.16">Mm-hmm</w>
+
+<w nite:id="EN2001a.A.words603" endtime="2617.42" starttime="2617.42" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words604" endtime="2627.82" starttime="2627.6">Yeah</w>
+
+<w nite:id="EN2001a.A.words605" endtime="2627.82" starttime="2627.82" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words606" endtime="2627.87" starttime="2627.82">I</w>
+
+<w nite:id="EN2001a.A.words607" endtime="2628.06" starttime="2627.87">think</w>
+
+<w nite:id="EN2001a.A.words608" endtime="2628.2" starttime="2628.06">so</w>
+
+<w nite:id="EN2001a.A.words609" endtime="2628.2" starttime="2628.2" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words610" endtime="2641.44" starttime="2641.32">Uh</w>
+
+<w nite:id="EN2001a.A.words611" endtime="2641.61" starttime="2641.44">yeah</w>
+
+<w nite:id="EN2001a.A.words612" endtime="2641.61" starttime="2641.61" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words613" endtime="2649.97" starttime="2649.27">Hmm</w>
+
+<w nite:id="EN2001a.A.words614" endtime="2649.97" starttime="2649.97" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words615" endtime="2650.16" starttime="2649.97">Yeah</w>
+
+<w nite:id="EN2001a.A.words616" endtime="2650.16" starttime="2650.16" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words617" endtime="2650.47" starttime="2650.16">yeah</w>
+
+<w nite:id="EN2001a.A.words618" endtime="2650.47" starttime="2650.47" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words619" endtime="2650.76" starttime="2650.47">Jasmine</w>
+
+<w nite:id="EN2001a.A.words620" endtime="2650.76" starttime="2650.76" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words621" endtime="2650.8" starttime="2650.76">I</w>
+
+<w nite:id="EN2001a.A.words622" endtime="2650.95" starttime="2650.8">thought</w>
+
+<w nite:id="EN2001a.A.words623" endtime="2651.01" starttime="2650.95">you</w>
+
+<w nite:id="EN2001a.A.words624" endtime="2651.13" starttime="2651.01">just</w>
+
+<w nite:id="EN2001a.A.words625" endtime="2651.38" starttime="2651.13">said</w>
+
+<w nite:id="EN2001a.A.words626" endtime="2651.56" starttime="2651.38">that</w>
+
+<w nite:id="EN2001a.A.words627" endtime="2651.85" starttime="2651.56">you'd</w>
+
+<w nite:id="EN2001a.A.words628" endtime="2653.24" starttime="2651.85">uh</w>
+
+<w nite:id="EN2001a.A.words629" endtime="2653.52" starttime="2653.24">looked</w>
+
+<w nite:id="EN2001a.A.words630" endtime="2653.92" starttime="2653.52">at</w>
+
+<w nite:id="EN2001a.A.words631" endtime="2654.47" starttime="2653.92">extracting</w>
+
+<w nite:id="EN2001a.A.words632" endtime="2654.54" starttime="2654.47">the</w>
+
+<w nite:id="EN2001a.A.words633" endtime="2654.92" starttime="2654.54">text</w>
+
+<w nite:id="EN2001a.A.words634" endtime="2654.92" starttime="2654.92" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words635" endtime="2664.28" starttime="2663.49">Yeah</w>
+
+<w nite:id="EN2001a.A.words636" endtime="2664.28" starttime="2664.28" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words637" endtime="2665.24" starttime="2664.28">So</w>
+
+<w nite:id="EN2001a.A.words638" endtime="2665.35" starttime="2665.24">you</w>
+
+<w nite:id="EN2001a.A.words639" endtime="2665.54" starttime="2665.35">you</w>
+
+<w nite:id="EN2001a.A.words640" endtime="2665.68" starttime="2665.54">said</w>
+
+<w nite:id="EN2001a.A.words641" endtime="2665.76" starttime="2665.68">you</w>
+
+<w nite:id="EN2001a.A.words642" endtime="2665.91" starttime="2665.76">did</w>
+
+<w nite:id="EN2001a.A.words643" endtime="2665.98" starttime="2665.91">it</w>
+
+<w nite:id="EN2001a.A.words644" endtime="2666.05" starttime="2665.98">in</w>
+
+<w nite:id="EN2001a.A.words645" endtime="2666.47" starttime="2666.05">Python</w>
+
+<w nite:id="EN2001a.A.words646" endtime="2666.47" starttime="2666.47" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words647" endtime="2666.69" starttime="2666.47">yeah</w>
+
+<w nite:id="EN2001a.A.words648" endtime="2666.69" starttime="2666.69" punc="true">?</w>
+
+<w nite:id="EN2001a.A.words649" endtime="2668.92" starttime="2668.79">Yeah</w>
+
+<w nite:id="EN2001a.A.words650" endtime="2668.92" starttime="2668.92" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words651" endtime="2669.08" starttime="2668.92">did</w>
+
+<w nite:id="EN2001a.A.words652" endtime="2669.17" starttime="2669.08">you</w>
+
+<w nite:id="EN2001a.A.words653" endtime="2669.34" starttime="2669.17">use</w>
+
+<w nite:id="EN2001a.A.words654" endtime="2669.41" starttime="2669.34">uh</w>
+
+<w nite:id="EN2001a.A.words655" endtime="2669.52" starttime="2669.41" trunc="true">b</w>
+
+<w nite:id="EN2001a.A.words656" endtime="2669.67" starttime="2669.52">the</w>
+
+<w nite:id="EN2001a.A.words657" endtime="2670.42" starttime="2669.67">X_L_</w>
+
+<disfmarker nite:id="EN2001a.A.words658" endtime="2670.42" starttime="2670.42"/>
+
+<w nite:id="EN2001a.A.words659" endtime="2670.51" starttime="2670.42">uh</w>
+
+<w nite:id="EN2001a.A.words660" endtime="2670.91" starttime="2670.51">X_M_L_</w>
+
+<w nite:id="EN2001a.A.words661" endtime="2671.44" starttime="2670.91">parser</w>
+
+<w nite:id="EN2001a.A.words662" endtime="2671.61" starttime="2671.44">in</w>
+
+<w nite:id="EN2001a.A.words663" endtime="2672.3" starttime="2671.61">Python</w>
+
+<w nite:id="EN2001a.A.words664" endtime="2672.3" starttime="2672.3" punc="true">?</w>
+
+<w nite:id="EN2001a.A.words665" endtime="2672.79" starttime="2672.3">Right</w>
+
+<w nite:id="EN2001a.A.words666" endtime="2672.79" starttime="2672.79" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words667" endtime="2673.38" starttime="2672.79">Yeah</w>
+
+<w nite:id="EN2001a.A.words668" endtime="2673.38" starttime="2673.38" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words669" endtime="2673.61" starttime="2673.38">sounds</w>
+
+<w nite:id="EN2001a.A.words670" endtime="2673.86" starttime="2673.61">pretty</w>
+
+<w nite:id="EN2001a.A.words671" endtime="2674.36" starttime="2673.86">good</w>
+
+<w nite:id="EN2001a.A.words672" endtime="2674.36" starttime="2674.36" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words673" endtime="2675.59" starttime="2674.36">So</w>
+
+<w nite:id="EN2001a.A.words674" endtime="2676.03" starttime="2675.59">um</w>
+
+<w nite:id="EN2001a.A.words675" endtime="2676.18" starttime="2676.03">'cause</w>
+
+<w nite:id="EN2001a.A.words676" endtime="2676.18" starttime="2676.18" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words677" endtime="2676.35" starttime="2676.18">yeah</w>
+
+<w nite:id="EN2001a.A.words678" endtime="2676.35" starttime="2676.35" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words679" endtime="2676.38" starttime="2676.35">I</w>
+
+<w nite:id="EN2001a.A.words680" endtime="2676.53" starttime="2676.38">was</w>
+
+<w nite:id="EN2001a.A.words681" endtime="2676.72" starttime="2676.53">having</w>
+
+<w nite:id="EN2001a.A.words682" endtime="2676.76" starttime="2676.72">a</w>
+
+<w nite:id="EN2001a.A.words683" endtime="2676.92" starttime="2676.76">look</w>
+
+<w nite:id="EN2001a.A.words684" endtime="2677.01" starttime="2676.92">in</w>
+
+<w nite:id="EN2001a.A.words685" endtime="2677.34" starttime="2677.01">it</w>
+
+<disfmarker nite:id="EN2001a.A.words686" endtime="2677.34" starttime="2677.34"/>
+
+<w nite:id="EN2001a.A.words687" endtime="2677.49" starttime="2677.34">a</w>
+
+<w nite:id="EN2001a.A.words688" endtime="2677.71" starttime="2677.49">look</w>
+
+<w nite:id="EN2001a.A.words689" endtime="2677.92" starttime="2677.71">at</w>
+
+<w nite:id="EN2001a.A.words690" endtime="2678.02" starttime="2677.92">it</w>
+
+<w nite:id="EN2001a.A.words691" endtime="2678.19" starttime="2678.02">as</w>
+
+<w nite:id="EN2001a.A.words692" endtime="2678.57" starttime="2678.19">well</w>
+
+<w nite:id="EN2001a.A.words693" endtime="2678.75" starttime="2678.57">and</w>
+
+<w nite:id="EN2001a.A.words694" endtime="2678.8" starttime="2678.75">I</w>
+
+<w nite:id="EN2001a.A.words695" endtime="2679.2" starttime="2678.8">noticed</w>
+
+<w nite:id="EN2001a.A.words696" endtime="2680.79" starttime="2679.2">the</w>
+
+<vocalsound nite:id="EN2001a.A.words697" endtime="2680.79" starttime="2680.79" type="other"/>
+
+<w nite:id="EN2001a.A.words698" endtime="2681.0" starttime="2680.79">um</w>
+
+<w nite:id="EN2001a.A.words699" endtime="2681.12" starttime="2681.0">the</w>
+
+<w nite:id="EN2001a.A.words700" endtime="2681.64" starttime="2681.12">speakers</w>
+
+<w nite:id="EN2001a.A.words701" endtime="2681.72" starttime="2681.64">are</w>
+
+<w nite:id="EN2001a.A.words702" endtime="2682.01" starttime="2681.72">all</w>
+
+<w nite:id="EN2001a.A.words703" endtime="2682.07" starttime="2682.01">in</w>
+
+<w nite:id="EN2001a.A.words704" endtime="2682.47" starttime="2682.07">that</w>
+
+<w nite:id="EN2001a.A.words705" endtime="2682.88" starttime="2682.47">separate</w>
+
+<w nite:id="EN2001a.A.words706" endtime="2683.54" starttime="2682.88">file</w>
+
+<w nite:id="EN2001a.A.words707" endtime="2683.54" starttime="2683.54" punc="true">?</w>
+
+<w nite:id="EN2001a.A.words708" endtime="2683.69" starttime="2683.54">So</w>
+
+<w nite:id="EN2001a.A.words709" endtime="2683.94" starttime="2683.69">did</w>
+
+<w nite:id="EN2001a.A.words710" endtime="2684.16" starttime="2683.94">did</w>
+
+<w nite:id="EN2001a.A.words711" endtime="2684.23" starttime="2684.16">you</w>
+
+<w nite:id="EN2001a.A.words712" endtime="2684.37" starttime="2684.23">have</w>
+
+<w nite:id="EN2001a.A.words713" endtime="2684.49" starttime="2684.37">to</w>
+
+<w nite:id="EN2001a.A.words714" endtime="2684.86" starttime="2684.49">combine</w>
+
+<w nite:id="EN2001a.A.words715" endtime="2685.0" starttime="2684.86">them</w>
+
+<w nite:id="EN2001a.A.words716" endtime="2685.18" starttime="2685.0">all</w>
+
+<w nite:id="EN2001a.A.words717" endtime="2685.47" starttime="2685.18">and</w>
+
+<w nite:id="EN2001a.A.words718" endtime="2685.63" starttime="2685.47">and</w>
+
+<w nite:id="EN2001a.A.words719" endtime="2685.86" starttime="2685.63">then</w>
+
+<w nite:id="EN2001a.A.words720" endtime="2686.2" starttime="2685.86">re-order</w>
+
+<w nite:id="EN2001a.A.words721" endtime="2686.47" starttime="2686.2">them</w>
+
+<w nite:id="EN2001a.A.words722" endtime="2686.47" starttime="2686.47" punc="true">?</w>
+
+<w nite:id="EN2001a.A.words723" endtime="2690.02" starttime="2689.73">Yeah</w>
+
+<w nite:id="EN2001a.A.words724" endtime="2690.02" starttime="2690.02" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words725" endtime="2691.5" starttime="2691.31" trunc="true">Ye</w>
+
+<w nite:id="EN2001a.A.words726" endtime="2691.62" starttime="2691.5">yeah</w>
+
+<w nite:id="EN2001a.A.words727" endtime="2691.62" starttime="2691.62" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words728" endtime="2691.81" starttime="2691.62" trunc="true">c</w>
+
+<w nite:id="EN2001a.A.words729" endtime="2694.14" starttime="2693.03">Right</w>
+
+<w nite:id="EN2001a.A.words730" endtime="2694.14" starttime="2694.14" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words731" endtime="2694.29" starttime="2694.14">Yeah</w>
+
+<w nite:id="EN2001a.A.words732" endtime="2694.29" starttime="2694.29" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words733" endtime="2694.42" starttime="2694.29">so</w>
+
+<w nite:id="EN2001a.A.words734" endtime="2694.58" starttime="2694.42">that's</w>
+
+<w nite:id="EN2001a.A.words735" endtime="2694.96" starttime="2694.58">approach</w>
+
+<gap nite:id="EN2001a.A.words736" endtime="2694.96" starttime="2694.96"/>
+
+<disfmarker nite:id="EN2001a.A.words737" endtime="2694.96" starttime="2694.96"/>
+
+<w nite:id="EN2001a.A.words738" endtime="2696.53" starttime="2694.96">um</w>
+
+<w nite:id="EN2001a.A.words739" endtime="2696.85" starttime="2696.53">well</w>
+
+<w nite:id="EN2001a.A.words740" endtime="2696.85" starttime="2696.85" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words741" endtime="2696.9" starttime="2696.85">I</w>
+
+<w nite:id="EN2001a.A.words742" endtime="2697.08" starttime="2696.9">was</w>
+
+<w nite:id="EN2001a.A.words743" endtime="2697.22" starttime="2697.08">going</w>
+
+<w nite:id="EN2001a.A.words744" endtime="2697.34" starttime="2697.22">to</w>
+
+<w nite:id="EN2001a.A.words745" endtime="2697.49" starttime="2697.34">do</w>
+
+<w nite:id="EN2001a.A.words746" endtime="2697.49" starttime="2697.49" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words747" endtime="2697.95" starttime="2697.49">So</w>
+
+<w nite:id="EN2001a.A.words748" endtime="2698.27" starttime="2697.95">yeah</w>
+
+<w nite:id="EN2001a.A.words749" endtime="2698.27" starttime="2698.27" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words750" endtime="2698.39" starttime="2698.27">we</w>
+
+<w nite:id="EN2001a.A.words751" endtime="2698.52" starttime="2698.39">may</w>
+
+<w nite:id="EN2001a.A.words752" endtime="2698.6" starttime="2698.52">as</w>
+
+<w nite:id="EN2001a.A.words753" endtime="2699.02" starttime="2698.6">well</w>
+
+<w nite:id="EN2001a.A.words754" endtime="2699.66" starttime="2699.02">collaborate</w>
+
+<w nite:id="EN2001a.A.words755" endtime="2699.66" starttime="2699.66" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words756" endtime="2708.73" starttime="2708.61">In</w>
+
+<w nite:id="EN2001a.A.words757" endtime="2708.82" starttime="2708.73">the</w>
+
+<w nite:id="EN2001a.A.words758" endtime="2708.98" starttime="2708.82">word</w>
+
+<w nite:id="EN2001a.A.words759" endtime="2709.28" starttime="2708.98">files</w>
+
+<w nite:id="EN2001a.A.words760" endtime="2709.28" starttime="2709.28" punc="true">?</w>
+
+<w nite:id="EN2001a.A.words761" endtime="2728.94" starttime="2728.79">I'm</w>
+
+<w nite:id="EN2001a.A.words762" endtime="2729.08" starttime="2728.94">not</w>
+
+<w nite:id="EN2001a.A.words763" endtime="2729.5" starttime="2729.08">sure</w>
+
+<w nite:id="EN2001a.A.words764" endtime="2729.76" starttime="2729.5">I</w>
+
+<disfmarker nite:id="EN2001a.A.words765" endtime="2729.76" starttime="2729.76"/>
+
+<w nite:id="EN2001a.A.words766" endtime="2729.91" starttime="2729.76">what</w>
+
+<w nite:id="EN2001a.A.words767" endtime="2730.02" starttime="2729.91">you</w>
+
+<w nite:id="EN2001a.A.words768" endtime="2730.41" starttime="2730.02">mean</w>
+
+<w nite:id="EN2001a.A.words769" endtime="2730.41" starttime="2730.41" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words770" endtime="2765.82" starttime="2765.68">Oh</w>
+
+<w nite:id="EN2001a.A.words771" endtime="2766.03" starttime="2765.82">right</w>
+
+<w nite:id="EN2001a.A.words772" endtime="2766.03" starttime="2766.03" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words773" endtime="2776.58" starttime="2776.36">Hmm</w>
+
+<w nite:id="EN2001a.A.words774" endtime="2776.58" starttime="2776.58" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words775" endtime="2838.42" starttime="2838.26">Hmm</w>
+
+<w nite:id="EN2001a.A.words776" endtime="2838.42" starttime="2838.42" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words777" endtime="2859.33" starttime="2859.11">Mm</w>
+
+<w nite:id="EN2001a.A.words778" endtime="2859.45" starttime="2859.33">I</w>
+
+<w nite:id="EN2001a.A.words779" endtime="2859.65" starttime="2859.45">thought</w>
+
+<w nite:id="EN2001a.A.words780" endtime="2859.73" starttime="2859.65">they</w>
+
+<w nite:id="EN2001a.A.words781" endtime="2859.8" starttime="2859.73">were</w>
+
+<w nite:id="EN2001a.A.words782" endtime="2860.29" starttime="2859.8">local</w>
+
+<w nite:id="EN2001a.A.words783" endtime="2860.74" starttime="2860.29">to</w>
+
+<w nite:id="EN2001a.A.words784" endtime="2860.81" starttime="2860.74" trunc="true">th</w>
+
+<w nite:id="EN2001a.A.words785" endtime="2860.92" starttime="2860.81">a</w>
+
+<w nite:id="EN2001a.A.words786" endtime="2861.5" starttime="2860.92">particular</w>
+
+<w nite:id="EN2001a.A.words787" endtime="2861.95" starttime="2861.5">meeting</w>
+
+<w nite:id="EN2001a.A.words788" endtime="2861.95" starttime="2861.95" punc="true">.</w>
+
+<vocalsound nite:id="EN2001a.A.words789" endtime="3099.97" starttime="3099.54" type="cough"/>
+
+<vocalsound nite:id="EN2001a.A.words790" endtime="3135.27" starttime="3133.86" type="cough"/>
+
+<w nite:id="EN2001a.A.words791" endtime="3446.98" starttime="3446.81">Hmm</w>
+
+<w nite:id="EN2001a.A.words792" endtime="3446.98" starttime="3446.98" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words793" endtime="4099.69" starttime="4099.41">Mm</w>
+
+<w nite:id="EN2001a.A.words794" endtime="4099.75" starttime="4099.69">is</w>
+
+<w nite:id="EN2001a.A.words795" endtime="4099.85" starttime="4099.75">there</w>
+
+<w nite:id="EN2001a.A.words796" endtime="4100.1" starttime="4099.85">anything</w>
+
+<w nite:id="EN2001a.A.words797" endtime="4100.31" starttime="4100.1">else</w>
+
+<w nite:id="EN2001a.A.words798" endtime="4100.41" starttime="4100.31">we</w>
+
+<w nite:id="EN2001a.A.words799" endtime="4100.59" starttime="4100.41">should</w>
+
+<w nite:id="EN2001a.A.words800" endtime="4101.28" starttime="4100.59">discuss</w>
+
+<w nite:id="EN2001a.A.words801" endtime="4101.28" starttime="4101.28" punc="true">?</w>
+
+<w nite:id="EN2001a.A.words802" endtime="4127.57" starttime="4127.45">Yeah</w>
+
+<w nite:id="EN2001a.A.words803" endtime="4127.57" starttime="4127.57" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words804" endtime="4127.74" starttime="4127.57">should</w>
+
+<w nite:id="EN2001a.A.words805" endtime="4127.82" starttime="4127.74">we</w>
+
+<w nite:id="EN2001a.A.words806" endtime="4127.95" starttime="4127.82">not</w>
+
+<w nite:id="EN2001a.A.words807" endtime="4128.11" starttime="4127.95">have</w>
+
+<w nite:id="EN2001a.A.words808" endtime="4128.28" starttime="4128.11">like</w>
+
+<w nite:id="EN2001a.A.words809" endtime="4128.43" starttime="4128.28">a</w>
+
+<w nite:id="EN2001a.A.words810" endtime="4128.73" starttime="4128.43">group</w>
+
+<w nite:id="EN2001a.A.words811" endtime="4129.23" starttime="4128.73">directory</w>
+
+<w nite:id="EN2001a.A.words812" endtime="4129.39" starttime="4129.23">or</w>
+
+<w nite:id="EN2001a.A.words813" endtime="4129.7" starttime="4129.39">something</w>
+
+<w nite:id="EN2001a.A.words814" endtime="4129.79" starttime="4129.7">where</w>
+
+<w nite:id="EN2001a.A.words815" endtime="4129.93" starttime="4129.79">we</w>
+
+<w nite:id="EN2001a.A.words816" endtime="4130.21" starttime="4129.93">can</w>
+
+<w nite:id="EN2001a.A.words817" endtime="4130.35" starttime="4130.21">put</w>
+
+<w nite:id="EN2001a.A.words818" endtime="4130.54" starttime="4130.35">all</w>
+
+<w nite:id="EN2001a.A.words819" endtime="4131.0" starttime="4130.54">our</w>
+
+<w nite:id="EN2001a.A.words820" endtime="4131.25" starttime="4131.0">code</w>
+
+<w nite:id="EN2001a.A.words821" endtime="4131.45" starttime="4131.25">in</w>
+
+<w nite:id="EN2001a.A.words822" endtime="4132.38" starttime="4131.45">and</w>
+
+<w nite:id="EN2001a.A.words823" endtime="4132.52" starttime="4132.38">that</w>
+
+<w nite:id="EN2001a.A.words824" endtime="4132.76" starttime="4132.52">kinda</w>
+
+<w nite:id="EN2001a.A.words825" endtime="4132.95" starttime="4132.76">thing</w>
+
+<w nite:id="EN2001a.A.words826" endtime="4132.95" starttime="4132.95" punc="true">?</w>
+
+<w nite:id="EN2001a.A.words827" endtime="4136.91" starttime="4136.63">Hmm</w>
+
+<w nite:id="EN2001a.A.words828" endtime="4136.91" starttime="4136.91" punc="true">.</w>
+
+<vocalsound nite:id="EN2001a.A.words829" endtime="4149.152" starttime="4149.152" type="laugh"/>
+
+<w nite:id="EN2001a.A.words830" endtime="4149.41" starttime="4149.32">I've</w>
+
+<w nite:id="EN2001a.A.words831" endtime="4149.9" starttime="4149.41">gotten</w>
+
+<w nite:id="EN2001a.A.words832" endtime="4150.17" starttime="4149.9">mm</w>
+
+<w nite:id="EN2001a.A.words833" endtime="4150.57" starttime="4150.17">hardly</w>
+
+<w nite:id="EN2001a.A.words834" endtime="4150.78" starttime="4150.57">any</w>
+
+<disfmarker nite:id="EN2001a.A.words835" endtime="4150.78" starttime="4150.78"/>
+
+<vocalsound nite:id="EN2001a.A.words836" endtime="4151.62" starttime="4151.32" type="laugh"/>
+
+<w nite:id="EN2001a.A.words837" endtime="4162.62" starttime="4162.31">Hmm</w>
+
+<w nite:id="EN2001a.A.words838" endtime="4162.62" starttime="4162.62" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words839" endtime="4177.02" starttime="4176.88">Yeah</w>
+
+<w nite:id="EN2001a.A.words840" endtime="4177.02" starttime="4177.02" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words841" endtime="4177.1" starttime="4177.02">we</w>
+
+<w nite:id="EN2001a.A.words842" endtime="4177.25" starttime="4177.1">can</w>
+
+<w nite:id="EN2001a.A.words843" endtime="4177.5" starttime="4177.25">ask</w>
+
+<w nite:id="EN2001a.A.words844" endtime="4177.87" starttime="4177.5">Steve</w>
+
+<w nite:id="EN2001a.A.words845" endtime="4178.24" starttime="4177.87">if</w>
+
+<w nite:id="EN2001a.A.words846" endtime="4178.49" starttime="4178.24">um</w>
+
+<w nite:id="EN2001a.A.words847" endtime="4178.61" starttime="4178.49">we</w>
+
+<w nite:id="EN2001a.A.words848" endtime="4178.8" starttime="4178.61">can</w>
+
+<w nite:id="EN2001a.A.words849" endtime="4179.16" starttime="4178.8">get</w>
+
+<w nite:id="EN2001a.A.words850" endtime="4179.72" starttime="4179.16">space</w>
+
+<w nite:id="EN2001a.A.words851" endtime="4179.72" starttime="4179.72" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words852" endtime="4186.09" starttime="4185.66">Yeah</w>
+
+<w nite:id="EN2001a.A.words853" endtime="4186.09" starttime="4186.09" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words854" endtime="4186.26" starttime="4186.09">uh</w>
+
+<w nite:id="EN2001a.A.words855" endtime="4186.66" starttime="4186.26">we</w>
+
+<w nite:id="EN2001a.A.words856" endtime="4186.78" starttime="4186.66">could</w>
+
+<w nite:id="EN2001a.A.words857" endtime="4186.88" starttime="4186.78">do</w>
+
+<w nite:id="EN2001a.A.words858" endtime="4187.0" starttime="4186.88">that</w>
+
+<w nite:id="EN2001a.A.words859" endtime="4187.0" starttime="4187.0" punc="true">.</w>
+
+<vocalsound nite:id="EN2001a.A.words860" endtime="4188.81" starttime="4188.21" type="laugh"/>
+
+<w nite:id="EN2001a.A.words861" endtime="4194.01" starttime="4193.81">Yeah</w>
+
+<w nite:id="EN2001a.A.words862" endtime="4194.01" starttime="4194.01" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words863" endtime="4194.12" starttime="4194.01">I'm</w>
+
+<w nite:id="EN2001a.A.words864" endtime="4194.29" starttime="4194.12">sure</w>
+
+<w nite:id="EN2001a.A.words865" endtime="4194.35" starttime="4194.29">he</w>
+
+<w nite:id="EN2001a.A.words866" endtime="4194.48" starttime="4194.35">had</w>
+
+<w nite:id="EN2001a.A.words867" endtime="4194.56" starttime="4194.48">to</w>
+
+<w nite:id="EN2001a.A.words868" endtime="4194.74" starttime="4194.56">deal</w>
+
+<w nite:id="EN2001a.A.words869" endtime="4194.85" starttime="4194.74">with</w>
+
+<w nite:id="EN2001a.A.words870" endtime="4195.18" starttime="4194.85">that</w>
+
+<w nite:id="EN2001a.A.words871" endtime="4195.42" starttime="4195.18">last</w>
+
+<w nite:id="EN2001a.A.words872" endtime="4195.69" starttime="4195.42">year</w>
+
+<w nite:id="EN2001a.A.words873" endtime="4195.69" starttime="4195.69" punc="true">.</w>
+
+<vocalsound nite:id="EN2001a.A.words874" endtime="4225.13" starttime="4224.77" type="laugh"/>
+
+<vocalsound nite:id="EN2001a.A.words875" endtime="4246.02" starttime="4245.47" type="laugh"/>
+
+<vocalsound nite:id="EN2001a.A.words876" endtime="4250.13" starttime="4249.43" type="laugh"/>
+
+<w nite:id="EN2001a.A.words877" endtime="4255.32" starttime="4254.89">Yeah</w>
+
+<w nite:id="EN2001a.A.words878" endtime="4255.32" starttime="4255.32" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words879" endtime="4387.68" starttime="4387.47">Hmm</w>
+
+<w nite:id="EN2001a.A.words880" endtime="4387.68" starttime="4387.68" punc="true">.</w>
+
+<vocalsound nite:id="EN2001a.A.words881" endtime="4416.49" starttime="4415.44" type="laugh"/>
+
+<vocalsound nite:id="EN2001a.A.words882" endtime="4424.47" starttime="4423.72" type="laugh"/>
+
+<w nite:id="EN2001a.A.words883" endtime="4437.82" starttime="4437.72">That</w>
+
+<w nite:id="EN2001a.A.words884" endtime="4438.07" starttime="4437.82">sounds</w>
+
+<w nite:id="EN2001a.A.words885" endtime="4439.16" starttime="4438.07">good</w>
+
+<w nite:id="EN2001a.A.words886" endtime="4439.16" starttime="4439.16" punc="true">.</w>
+
+<vocalsound nite:id="EN2001a.A.words887" endtime="4439.56" starttime="4439.16" type="laugh"/>
+
+<w nite:id="EN2001a.A.words888" endtime="4470.99" starttime="4470.71">Hmm</w>
+
+<w nite:id="EN2001a.A.words889" endtime="4470.99" starttime="4470.99" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words890" endtime="4526.42" starttime="4526.22">Hmm</w>
+
+<w nite:id="EN2001a.A.words891" endtime="4526.42" starttime="4526.42" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words892" endtime="4535.13" starttime="4534.72">Yeah</w>
+
+<w nite:id="EN2001a.A.words893" endtime="4535.13" starttime="4535.13" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words894" endtime="4535.38" starttime="4535.13">that's</w>
+
+<w nite:id="EN2001a.A.words895" endtime="4535.56" starttime="4535.38">what</w>
+
+<w nite:id="EN2001a.A.words896" endtime="4536.28" starttime="4535.56">I'm</w>
+
+<w nite:id="EN2001a.A.words897" endtime="4536.46" starttime="4536.28">gonna</w>
+
+<w nite:id="EN2001a.A.words898" endtime="4536.71" starttime="4536.46">need</w>
+
+<w nite:id="EN2001a.A.words899" endtime="4536.71" starttime="4536.71" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words900" endtime="4543.44" starttime="4543.12">Yes</w>
+
+<w nite:id="EN2001a.A.words901" endtime="4543.44" starttime="4543.44" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words902" endtime="4544.72" starttime="4544.6">Yeah</w>
+
+<w nite:id="EN2001a.A.words903" endtime="4544.72" starttime="4544.72" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words904" endtime="4544.84" starttime="4544.72">it's</w>
+
+<w nite:id="EN2001a.A.words905" endtime="4545.04" starttime="4544.84">just</w>
+
+<w nite:id="EN2001a.A.words906" endtime="4545.44" starttime="4545.04" trunc="true">mo</w>
+
+<w nite:id="EN2001a.A.words907" endtime="4545.77" starttime="4545.44">changing</w>
+
+<w nite:id="EN2001a.A.words908" endtime="4545.83" starttime="4545.77">it</w>
+
+<w nite:id="EN2001a.A.words909" endtime="4545.89" starttime="4545.83">a</w>
+
+<w nite:id="EN2001a.A.words910" endtime="4546.03" starttime="4545.89">bit</w>
+
+<w nite:id="EN2001a.A.words911" endtime="4546.03" starttime="4546.03" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words912" endtime="4555.94" starttime="4555.75">Yeah</w>
+
+<w nite:id="EN2001a.A.words913" endtime="4555.94" starttime="4555.94" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words914" endtime="4587.25" starttime="4587.11">No</w>
+
+<w nite:id="EN2001a.A.words915" endtime="4587.25" starttime="4587.25" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words916" endtime="4587.83" starttime="4587.25">but</w>
+
+<vocalsound nite:id="EN2001a.A.words917" endtime="4587.83" starttime="4587.83" type="other"/>
+
+<w nite:id="EN2001a.A.words918" endtime="4588.32" starttime="4587.83">uh</w>
+
+<w nite:id="EN2001a.A.words919" endtime="4588.52" starttime="4588.32">that's</w>
+
+<w nite:id="EN2001a.A.words920" endtime="4588.76" starttime="4588.52">what</w>
+
+<w nite:id="EN2001a.A.words921" endtime="4589.22" starttime="4588.76">M_L_C_</w>
+
+<w nite:id="EN2001a.A.words922" endtime="4589.46" starttime="4589.22" mispronounced="true">seg</w>
+
+<w nite:id="EN2001a.A.words923" endtime="4589.74" starttime="4589.46">does</w>
+
+<w nite:id="EN2001a.A.words924" endtime="4589.74" starttime="4589.74" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words925" endtime="4590.18" starttime="4589.74">It</w>
+
+<w nite:id="EN2001a.A.words926" endtime="4590.56" starttime="4590.18">it</w>
+
+<w nite:id="EN2001a.A.words927" endtime="4590.94" starttime="4590.56">marks</w>
+
+<w nite:id="EN2001a.A.words928" endtime="4591.02" starttime="4590.94">the</w>
+
+<w nite:id="EN2001a.A.words929" endtime="4591.2" starttime="4591.02">end</w>
+
+<w nite:id="EN2001a.A.words930" endtime="4591.43" starttime="4591.2">of</w>
+
+<w nite:id="EN2001a.A.words931" endtime="4591.62" starttime="4591.43">each</w>
+
+<w nite:id="EN2001a.A.words932" endtime="4592.02" starttime="4591.62">segment</w>
+
+<w nite:id="EN2001a.A.words933" endtime="4592.02" starttime="4592.02" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words934" endtime="4594.76" starttime="4594.57">Yeah</w>
+
+<w nite:id="EN2001a.A.words935" endtime="4594.76" starttime="4594.76" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words936" endtime="4604.34" starttime="4604.13">Yeah</w>
+
+<w nite:id="EN2001a.A.words937" endtime="4604.34" starttime="4604.34" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words938" endtime="4626.79" starttime="4626.59">Oh</w>
+
+<w nite:id="EN2001a.A.words939" endtime="4626.79" starttime="4626.79" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words940" endtime="4636.77" starttime="4636.54">Yeah</w>
+
+<w nite:id="EN2001a.A.words941" endtime="4636.77" starttime="4636.77" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words942" endtime="4638.4" starttime="4638.2">Yeah</w>
+
+<w nite:id="EN2001a.A.words943" endtime="4638.4" starttime="4638.4" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words944" endtime="4638.55" starttime="4638.4">for</w>
+
+<w nite:id="EN2001a.A.words945" endtime="4638.71" starttime="4638.55">me</w>
+
+<w nite:id="EN2001a.A.words946" endtime="4638.98" starttime="4638.71">it's</w>
+
+<w nite:id="EN2001a.A.words947" endtime="4639.28" starttime="4638.98">better</w>
+
+<w nite:id="EN2001a.A.words948" endtime="4639.42" starttime="4639.28">if</w>
+
+<w nite:id="EN2001a.A.words949" endtime="4639.8" starttime="4639.42">they're</w>
+
+<w nite:id="EN2001a.A.words950" endtime="4639.96" starttime="4639.8">by</w>
+
+<w nite:id="EN2001a.A.words951" endtime="4640.33" starttime="4639.96">meeting</w>
+
+<w nite:id="EN2001a.A.words952" endtime="4640.33" starttime="4640.33" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words953" endtime="4716.11" starttime="4715.76">Then</w>
+
+<w nite:id="EN2001a.A.words954" endtime="4716.26" starttime="4716.11">that'll</w>
+
+<w nite:id="EN2001a.A.words955" endtime="4717.02" starttime="4716.26">be</w>
+
+<w nite:id="EN2001a.A.words956" endtime="4717.24" starttime="4717.02">really</w>
+
+<w nite:id="EN2001a.A.words957" endtime="4717.42" starttime="4717.24">easy</w>
+
+<w nite:id="EN2001a.A.words958" endtime="4717.55" starttime="4717.42">to</w>
+
+<w nite:id="EN2001a.A.words959" endtime="4717.72" starttime="4717.55">do</w>
+
+<w nite:id="EN2001a.A.words960" endtime="4718.02" starttime="4717.72">once</w>
+
+<w nite:id="EN2001a.A.words961" endtime="4718.23" starttime="4718.02">they've</w>
+
+<w nite:id="EN2001a.A.words962" endtime="4718.41" starttime="4718.23">got</w>
+
+<w nite:id="EN2001a.A.words963" endtime="4718.5" starttime="4718.41">the</w>
+
+<w nite:id="EN2001a.A.words964" endtime="4718.66" starttime="4718.5">raw</w>
+
+<w nite:id="EN2001a.A.words965" endtime="4719.1" starttime="4718.66">text</w>
+
+<w nite:id="EN2001a.A.words966" endtime="4719.1" starttime="4719.1" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words967" endtime="4719.4" starttime="4719.1">It's</w>
+
+<w nite:id="EN2001a.A.words968" endtime="4719.6" starttime="4719.4">just</w>
+
+<w nite:id="EN2001a.A.words969" endtime="4719.64" starttime="4719.6">a</w>
+
+<w nite:id="EN2001a.A.words970" endtime="4719.87" starttime="4719.64">case</w>
+
+<w nite:id="EN2001a.A.words971" endtime="4720.02" starttime="4719.87">of</w>
+
+<w nite:id="EN2001a.A.words972" endtime="4720.27" starttime="4720.02">running</w>
+
+<w nite:id="EN2001a.A.words973" endtime="4720.92" starttime="4720.27">the</w>
+
+<w nite:id="EN2001a.A.words974" endtime="4721.32" starttime="4720.92">script</w>
+
+<w nite:id="EN2001a.A.words975" endtime="4721.32" starttime="4721.32" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words976" endtime="4725.12" starttime="4724.85">Yeah</w>
+
+<w nite:id="EN2001a.A.words977" endtime="4725.12" starttime="4725.12" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words978" endtime="4725.15" starttime="4725.12">I</w>
+
+<w nite:id="EN2001a.A.words979" endtime="4725.44" starttime="4725.15">mean</w>
+
+<w nite:id="EN2001a.A.words980" endtime="4725.88" starttime="4725.44">hopefully</w>
+
+<w nite:id="EN2001a.A.words981" endtime="4726.08" starttime="4725.88">this</w>
+
+<w nite:id="EN2001a.A.words982" endtime="4726.45" starttime="4726.08">week</w>
+
+<w nite:id="EN2001a.A.words983" endtime="4726.45" starttime="4726.45" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words984" endtime="4747.08" starttime="4746.92">Alright</w>
+
+<w nite:id="EN2001a.A.words985" endtime="4747.08" starttime="4747.08" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words986" endtime="4767.8" starttime="4767.71">And</w>
+
+<w nite:id="EN2001a.A.words987" endtime="4767.88" starttime="4767.8">we</w>
+
+<w nite:id="EN2001a.A.words988" endtime="4768.28" starttime="4767.88">could</w>
+
+<disfmarker nite:id="EN2001a.A.words989" endtime="4768.28" starttime="4768.28"/>
+
+<w nite:id="EN2001a.A.words990" endtime="5039.77" starttime="5039.62">Don't</w>
+
+<w nite:id="EN2001a.A.words991" endtime="5039.92" starttime="5039.77">know</w>
+
+<w nite:id="EN2001a.A.words992" endtime="5039.92" starttime="5039.92" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words993" endtime="5040.16" starttime="5039.92">Suppose</w>
+
+<w nite:id="EN2001a.A.words994" endtime="5040.28" starttime="5040.16">we're</w>
+
+<w nite:id="EN2001a.A.words995" endtime="5040.45" starttime="5040.28">just</w>
+
+<w nite:id="EN2001a.A.words996" endtime="5040.66" starttime="5040.45">getting</w>
+
+<w nite:id="EN2001a.A.words997" endtime="5040.8" starttime="5040.66">on</w>
+
+<w nite:id="EN2001a.A.words998" endtime="5040.95" starttime="5040.8">with</w>
+
+<w nite:id="EN2001a.A.words999" endtime="5041.17" starttime="5040.95">all</w>
+
+<w nite:id="EN2001a.A.words1000" endtime="5041.31" starttime="5041.17">our</w>
+
+<w nite:id="EN2001a.A.words1001" endtime="5043.12" starttime="5042.45">components</w>
+
+<w nite:id="EN2001a.A.words1002" endtime="5043.12" starttime="5043.12" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words1003" endtime="5043.43" starttime="5043.12">So</w>
+
+<disfmarker nite:id="EN2001a.A.words1004" endtime="5043.43" starttime="5043.43"/>
+
+<vocalsound nite:id="EN2001a.A.words1005" endtime="5044.724" starttime="5044.724" type="other"/>
+
+<disfmarker nite:id="EN2001a.A.words1006" endtime="5044.724" starttime="5044.724"/>
+
+<w nite:id="EN2001a.A.words1007" endtime="5047.36" starttime="5047.25">I</w>
+
+<w nite:id="EN2001a.A.words1008" endtime="5048.83" starttime="5047.36">know</w>
+
+<w nite:id="EN2001a.A.words1009" endtime="5048.83" starttime="5048.83" punc="true">.</w>
+
+<vocalsound nite:id="EN2001a.A.words1010" endtime="5048.83" starttime="5048.83" type="laugh"/>
+
+<w nite:id="EN2001a.A.words1011" endtime="5048.99" starttime="5048.83" trunc="true">Wa</w>
+
+<w nite:id="EN2001a.A.words1012" endtime="5060.09" starttime="5059.43">Yeah</w>
+
+<w nite:id="EN2001a.A.words1013" endtime="5060.09" starttime="5060.09" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words1014" endtime="5060.21" starttime="5060.09">Yeah</w>
+
+<w nite:id="EN2001a.A.words1015" endtime="5060.21" starttime="5060.21" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words1016" endtime="5060.31" starttime="5060.21">he</w>
+
+<w nite:id="EN2001a.A.words1017" endtime="5060.96" starttime="5060.31">suggested</w>
+
+<w nite:id="EN2001a.A.words1018" endtime="5061.15" starttime="5060.96">that</w>
+
+<w nite:id="EN2001a.A.words1019" endtime="5061.25" starttime="5061.15">we</w>
+
+<w nite:id="EN2001a.A.words1020" endtime="5061.4" starttime="5061.25">could</w>
+
+<w nite:id="EN2001a.A.words1021" endtime="5061.56" starttime="5061.4">have</w>
+
+<w nite:id="EN2001a.A.words1022" endtime="5061.65" starttime="5061.56">an</w>
+
+<w nite:id="EN2001a.A.words1023" endtime="5061.89" starttime="5061.65">uh</w>
+
+<w nite:id="EN2001a.A.words1024" endtime="5062.25" starttime="5061.89">initial</w>
+
+<w nite:id="EN2001a.A.words1025" endtime="5062.96" starttime="5062.25">prototype</w>
+
+<w nite:id="EN2001a.A.words1026" endtime="5062.96" starttime="5062.96" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words1027" endtime="5066.79" starttime="5066.7">I</w>
+
+<w nite:id="EN2001a.A.words1028" endtime="5067.05" starttime="5066.79">know</w>
+
+<w nite:id="EN2001a.A.words1029" endtime="5067.05" starttime="5067.05" punc="true">,</w>
+
+<w nite:id="EN2001a.A.words1030" endtime="5067.65" starttime="5067.05">I'd</w>
+
+<w nite:id="EN2001a.A.words1031" endtime="5067.7" starttime="5067.65" trunc="true">b</w>
+
+<w nite:id="EN2001a.A.words1032" endtime="5067.84" starttime="5067.7">I'd</w>
+
+<w nite:id="EN2001a.A.words1033" endtime="5067.9" starttime="5067.84">be</w>
+
+<w nite:id="EN2001a.A.words1034" endtime="5068.33" starttime="5067.9">surprised</w>
+
+<w nite:id="EN2001a.A.words1035" endtime="5068.46" starttime="5068.33">if</w>
+
+<w nite:id="EN2001a.A.words1036" endtime="5068.55" starttime="5068.46">we</w>
+
+<w nite:id="EN2001a.A.words1037" endtime="5068.87" starttime="5068.55">can</w>
+
+<w nite:id="EN2001a.A.words1038" endtime="5069.15" starttime="5068.87">get</w>
+
+<w nite:id="EN2001a.A.words1039" endtime="5070.54" starttime="5069.15">anything</w>
+
+<w nite:id="EN2001a.A.words1040" endtime="5071.63" starttime="5070.54">working</w>
+
+<w nite:id="EN2001a.A.words1041" endtime="5071.74" starttime="5071.63">by</w>
+
+<w nite:id="EN2001a.A.words1042" endtime="5072.06" starttime="5071.74">next</w>
+
+<w nite:id="EN2001a.A.words1043" endtime="5072.3" starttime="5072.06">week</w>
+
+<w nite:id="EN2001a.A.words1044" endtime="5072.3" starttime="5072.3" punc="true">.</w>
+
+<w nite:id="EN2001a.A.words1045" endtime="5081.24" starttime="5081.07">Alright</w>
+
+<w nite:id="EN2001a.A.words1046" endtime="5081.24" starttime="5081.24" punc="true">.</w>

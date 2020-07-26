@@ -1,0 +1,1571 @@
+E: 'Kay Gosh 'Kay.
+A:Okay.
+A:Does anyone want to see uh Steve's feedback from the specification.
+E:Is there much more.
+D:I.
+D:I dry-read it the last.
+E:in it than he Is there much more.
+A:Right.
+D:time.
+E:in it than he said yesterday.
+A:Not really um.
+E:Mm Hmm.
+A:just what he's talking about like duplication of effort.
+A:and.
+E:Hmm.
+A:Like duplication of effort and stuff and um yeah he was saying that we should maybe uh think about having a prototype for week six which is next.
+D:Next week.
+A:week.
+A:Yeah So we should probably prioritize our packages.
+E:Yeah now I'd say if for the prototype if we just like wherever possible chunk in the stuff that we have um pre-annotated and stuff and for the stuff.
+A:Mm.
+E:that we don't have pre-annotated write like a stupid baseline then we should probably be able to basically that means we focus on on the interface first sort of so that we we take the the ready-made parts and just see how we get them work together in the interface the way we want and and then we have a working prototype And then we can go back and replace pieces either by our own components or by more sophisticated components of our own So it's probably.
+B:Yeah.
+E:feasible The.
+A:Yeah.
+E:thing is I'm away this weekend So that's.
+B:Yeah.
+E:for me Oh yeah um yeah.
+B:I mean if we just want to have um some data for the user face could even be random data.
+D:Yeah.
+E:No But also.
+B:Uh mm mm Yeah.
+E:I might like the the similarity thing like my just my matrix itself for my stuff I I I think I can do that fairly quickly because I have the algorithms.
+E:Yeah.
+B:I'm.
+E:I think today's meeting is really the one where we where we sort of settle down the data structure and as soon.
+D:Yeah.
+E:as we have that uh probably like after today's meeting we then actually need to well go back first of all and look at NITE X_M_L_ to see in how far that that which we want is compatible with that NITE X_M_L_ offers us And then just sort of everyone make sure everyone understand the interface So I think if today we decide on what data we wanna have now and and later maybe even today we go and look at NITE X_M_L_ or some of look at NITE X_M_L_ in a bit more detail just trying to make some sense of that code and see how does the representation work in their system And then sort of with that knowledge we should be able to then say okay that type of NITE X_M_L_ data we wanna load into it and this is how everyone can access it and then.
+A:Hmm Has.
+E:we should.
+E:be able to go from.
+A:has.
+A:anyone.
+E:there No.
+A:actually looked at the Java code for.
+D:No.
+A:the huh Hmm Yeah.
+E:I've looked at the documentation and like seen enough to make me think that we want to use the NITE X_M_L_ framework because um they have a good event model that synchronizes sort of the data and and every display element So that takes a lot of work away from us Sort of that would be a reason for staying within their framework and using their general classes But beyond that I haven't looked at it at all which is something we should really do.
+E:Who actually.
+A:I.
+A:think so.
+E:like for this whole discussion I mean who of us is doing stuff that is happening on-line and who of us is doing stuff that's happening off-line Like my data is coming Hmm.
+C:The basic word importance is off-line.
+E:Yeah Okay.
+C:as well The combined measure might not be if we want to wait what.
+C:the user has typed in into the search.
+E:Okay 'Kay.
+D:Uh mine's gonna be mostly using the off-line But the actual stuff it's doing will be on-line But it won't be very.
+D:um processor intensive or memory intensive I don't.
+E:So.
+D:think.
+E:basically apart from the display module the the display itself we don't have an extremely high degree of interaction between sort of our modules that create the stuff and and the interface so the interface is mainly while it's running just working on data that's just loaded from a file I guess There.
+A:Yeah.
+E:isn't.
+A:I I don't know about.
+B:Hmm.
+A:the search functionality that might be online Depends how it's gonna work.
+E:Yeah I know Yeah the search is I guess the search is sort of a strange beast anyway because for the search we're leaving the NITE X_M_L_ framework.
+A:Yeah.
+E:Um but that's still sort of that's good That means that at least like we don't have the type of situation where somebody has to do like a billion calculations on on data on-line 'Cause that would make it a lot more like that would mean that our interface for the data would have to be a lot more careful about how it performs and and everything And nobody is modifying that data at at on-line time at all it seems Nobody's making any changes to the actual data on-line.
+D:Don't think so Yeah.
+E:So that's actually making it a lot easier That basically.
+E:means our browser really is a viewer mostly which isn't doing much with the data except for sort of selecting a piece of it and and displaying it.
+D:Are we still gonna go for dumping it into a database.
+E:Hmm.
+D:Are we still gonna dump it into a database.
+E:Well some parts relevant for the search yes I'd say so.
+D:'Cause if we are I reckon we should all read our classes out of the database It'll be so much easier.
+E:Hmm.
+D:Well if we're gonna dump the part of it into a database anyway we might as well dump all the fields we want into the database calculate everything from there Then we don't even have to worry that much about the underlying X_M_L_ representation We can just query it.
+E:Yeah but nobody of us is doing much of searching from the data in the on-line stage And for all together like the display itself I think we are easier if we if it's sitting on the X_M_L_ than if it's sitting on the S_Q_L_ stuff because if it's sitting on the X_M_L_ we have the the NITE X_M_L_ framework with all its functionality for synchronizing through all the different levels whenever there's a change whenever something's moving forward and stuff And we can just more or less look at their code like how their player moves forward and how that moving forward is represented in different windows and stuff So I think in the actual browser itself I don't wanna sit on the S_Q_L_ if we can sit on the X_M_L_ because sitting on the X_M_L_ we have all we have so much help And for for like the the calculations that we're doing apart from the search it seems that everyone needs some special representations anyway.
+D:Well if we're gonna do that we should try and store everything in in an X_M_L_ format as well.
+E:You mean our results.
+D:Yeah.
+E:Yeah in in the NITE X_M_L_ X_M_L_ format so with their time stamps and stuff so that it's easy.
+B:Yes.
+E:to to tie together things.
+D:Yeah.
+E:What I'm like what we have to think about is if we go with this multi-level idea like this idea that sort of if you start with a whole meeting series as one entity as one thing that you display as one whole sort of that then the individual chunks of the individual meetings whereas and then you can click on a meeting and then sort of the meeting is the whole thing and the chunks are the individual segments that means sort of we have multiple levels of of representation which we probably If we if we do it this way like we we have to discuss that if we do it this way then we should probably find some abstraction model so that the interface in the sense like deals with it as if it's same so that the interface doesn't really have to worry whether it's a meeting in the whole meeting series or a segment within a meeting you know what I mean.
+A:Mm-hmm.
+B:Hmm yes Hmm.
+E:And that's probably stuff that we have to sort of like process twice then Like for example that like the summary of a meeting within the whole meeting corpus or meeting series is meeting series a good word for that I don't really know what how to call it You know what I mean like.
+E:not not the whole corpus but every meeting that has to do with one topic.
+A:Yeah that makes sense.
+E:Um so in in the meeting series so that a summary for a meeting within the meeting series are sort of compiled off-line by a summary module And that is separate from a summary of a segment within a meeting 'Cause I don't think we can.
+D:Well we don't even need to.
+B:I'm not.
+D:do that.
+D:'cause if we.
+B:so.
+B:sure.
+D:got our information density calculated off-line so all we do is treat the whole lot as one massive document I mean they'll it's not gonna be so big that we can't load in a information density for every utterance And we can just summarise based on that.
+B:I I thought we would just have like um one big summary um all the uh different importance levels um displayed on it And depending on what our um zoom level is we just display a part of it.
+E:So are we doing that at all levels Are we um.
+B:And we would have one very big thing off-line And from that we would just select what we are displaying.
+E:And just have different like levels sort of.
+B:Yes So for example you would um give a high value to those um sequences you want to.
+E:Mm 'Kay So the only.
+B:display in the meeting series summary.
+B:And you just.
+E:thing.
+E:that.
+B:cut off.
+E:yeah so the only thing that would happen basically if I double-click let's say from the whole meeting series on a single meeting is that the zoom level changes Like the the start and the end position changes and the zoom level changes.
+B:That was what I I thought.
+D:I think.
+B:yeah.
+E:I.
+D:you can.
+B:I.
+B:thought.
+D:do it on-line.
+E:I thought we couldn't do that Like I was under the impression that we couldn't do that because we couldn't load the data for all that But I don't know I mean that.
+A:Hmm.
+D:I don't think there's really much point in doing like that when it's just gonna feed off in the end the information density measure basically And that's all calculated off-line So what you're really doing is sorting a list is the computationally hard part of it.
+E:So I'm not sure if I got it I.
+D:Well.
+E:was Mm-hmm.
+D:like the ideas we're calculating are information density all off-line first for every utterance.
+D:in the whole corpus.
+E:Mm-hmm Mm-hmm.
+D:right So what you do is you say if you're looking at a series of meetings you just say well our whole document comprises of all these.
+D:stuck together And then all you have to do is sort them.
+E:Mm-hmm Okay.
+D:by information density Like maybe weighted.
+D:with the search terms.
+E:So Okay.
+D:and then extract them I don't think it's too slow to do on-line.
+D:to be honest Is.
+E:I I was just worried about the total memory complexity of it But I I completely admit I mean I just sort of like took that from some thing that Jonathan once said about not loading everything But maybe I was just wrong about it How.
+E:many utterances.
+D:that.
+B:But I think the difference might be that we want just want to have um the words And that's not so much what he meant with not possibly loading everything was.
+E:Yeah and I.
+B:that.
+B:you.
+E:yeah Yeah.
+B:um load all the uh.
+D:Yeah.
+B:annotation stuff all the sound.
+A:Hmm.
+E:Yeah.
+B:files all.
+E:Yeah So what we have is we would have a word Like we would have words with some priority levels And they would basically be because even the selection would would the summaries automatically feed from just how prioritized an individual word or how uh prioritized an individual utterance is Or are the summaries sort of refined from it and made by a machine to make sentences and stuff Or are they just sort of taking out the words with the highest priority and then the words of the second.
+D:Well.
+E:highest priority And the.
+D:on the utterance level I was thinking So.
+D:the utterances with the.
+E:okay Are we doing.
+D:highest like mean information density.
+B:In.
+E:it on the whole thing on the utterance level Or are we doing it on word level like the information.
+D:Well the trouble.
+E:density.
+E:calculation.
+D:with doing it on the word level is if you want the audio to synch up you've got no way of getting in and extracting just that word I mean it's impossible.
+E:We I think we have start and end times for words actually.
+D:For every.
+E:but.
+E:it's yeah.
+D:single word.
+C:Yeah.
+E:but it it might.
+D:Oh okay Yeah.
+E:but it might sound crazy in the player We should really.
+E:maybe we can do that together at some point today that we check out how the player works.
+D:I don't think that will.
+E:But.
+E:there's maybe some.
+D:it.
+D:We'll have.
+E:merit.
+B:Um.
+D:to buffer.
+E:in.
+E:altogether.
+D:it.
+E:doing it on an utterance level.
+B:I I.
+E:in the.
+E:end So.
+B:getting quite lost um at the moment.
+B:because um what's um our difference between the um um uh the importance and the skimming I mean do we do both or is it the same thing.
+D:Well the skimming's gonna use the importance.
+E:Yeah.
+B:Okay So.
+D:But like at.
+D:first it's.
+B:but.
+B:when when.
+D:just.
+D:gonna be I_D_F_.
+B:we.
+B:talk about summaries you talk about this uh about skimming and not about.
+D:Well mostly skimming yeah.
+E:Well but also about the displays I mean the displays in the in the text body in the in the latest draft that we had sort of we came up with the idea that it isn't displaying utterance for utterance but it's also displaying uh a summarised version in you know like below the below the graph the part.
+B:Yeah.
+E:Maybe Yeah Hmm.
+B:Yeah right isn't that the skimming.
+B:Isn't that the skimming.
+E:Oh yeah it's just like there there's like audio skimming and there's displayed skimming.
+B:Yeah but it use the same data.
+E:Yeah.
+D:Yeah Well.
+E:maybe there's some merit of going altogether for utterance level and not even bother to calculate I mean if you have to do it internally then you can do it But maybe like not even store the importance levels for individual words and just sort of rank utterances as.
+E:a whole Hmm.
+D:the nice thing about that is it will automatically be in sentences Well.
+D:more or less.
+E:Yeah 'Cause.
+D:So it will make more sense and if you.
+D:get just extract.
+E:it.
+E:it.
+D:words.
+E:might be better skimming and less memory required at the same time And I mean if you if you know how to do it for individual words then you can just in the worst case if you can't find anything else just sort of make the mean of the words over the utterance You know what I mean.
+C:I'm not quite so what it did you.
+E:it's it's.
+C:want to do it you.
+C:just wanted to assign.
+E:Well what's the smallest chunk at the moment you're thinking of of assigning an importance measure to is it a word or is it an utterance.
+C:Uh I thought about words.
+E:So we're thinking of like maybe just storing it on a per utterance level Because it's it's less stuff to store probably.
+C:Mm.
+E:for Dave in the in the audio playing And for in the display it's probably better if you have whole utterances than I don't know like what it's like if you just take.
+B:Yeah.
+E:single words out of utterances That probably doesn't make any sense at all whereas if you just uh show important.
+D:Yeah.
+E:utterances but the utterance as a whole it makes more sense So it doesn't actually make a for your algorithm 'cause it just means that if you're working on a word level then we just mean it over the utterance.
+C:Mm okay.
+B:yeah I think we also thought about combining that measure with um the I get from um uh hot-spots and so on.
+E:They are on.
+B:So.
+B:that would also be on utterance level I think.
+E:Oh so that's good anyway.
+B:I think.
+E:then yeah.
+D:I.
+D:see But it'll need.
+E:Because that makes it a lot easier than to put it on utterance.
+E:level Oh yeah No.
+D:to be calculated at word level though because otherwise there won't be enough occurrences of the terms to make any meaningful.
+D:sense Yeah.
+E:but I mean like how how Jasmine does it internally I don't know but it's probably yeah you probably have.
+E:to work on word levels for importance But there should be ways of easily going from a word level to an utterance level.
+D:Yeah I reckon you can just.
+E:Okay.
+D:mean it over the sentence.
+C:Yeah.
+C:but how about those words which don't carry any meaning at all the um and and something like that.
+E:Yeah.
+C:Because if we if.
+D:I think.
+D:we should filter.
+C:we.
+C:average.
+D:them.
+C:average over over a whole utterance.
+E:Hmm.
+C:all the words and there are quite unimportant words in there but quite important words as well I think we should just disregard the the.
+D:Maybe we should have like um a cut-off So it a word only gets a value if it's above a certain threshold So.
+C:Okay Alright.
+D:anything that has less than say nought point five importance gets assigned to zero.
+E:Well we do a pre-filtering of sort of the whole thing.
+D:Yeah that's the other.
+E:sort of like.
+E:but that like the problem with that is it's easy to do in the text level But that would mean it would still play the uh in your audio.
+D:Yeah.
+E:unless we sort of also store what pieces we cut out for the audio Yeah I think before we can like answer that specific question how we deal with that it's probably good for us to look at what the audio player is capable of doing.
+D:I think we'll have to buffer the audio But.
+E:Yes.
+D:I don't think it will be very hard I think it would be like an hour or two's work.
+E:So what do you mean by buffering Like you think directly.
+D:Like just.
+E:feeding.
+D:build another wave file essentially.
+A:Yeah you just concatenate.
+E:But.
+D:Yeah I mean.
+A:them together.
+E:yeah but not.
+D:I bet.
+D:there would be.
+E:but.
+E:not.
+D:packages.
+E:on the hard disk and then loaded in but loaded in directly from memory.
+D:In memory yeah So just like there's bound to be like a media wave object or something like that And.
+E:But it's probably.
+D:just build.
+D:one in memory.
+E:a stream.
+E:if it exists in Java it would be probably some binary stream going in of some.
+D:I don't.
+E:type Okay.
+D:know I have no idea.
+D:But it.
+E:yeah Okay.
+D:must have like classes for dealing with files And if it has classes for concatenating files you can do it in.
+D:memory So.
+E:Okay so.
+E:I mean so that means that there's probably even if you go on an per utterance level there's still some merit on within utterances cutting out stuff which clearly isn't relevant at all and that maybe also for the audio we'd have to do So let's say we play the whole phrase but then in addition to that we have some information that says minus that part of something That's okay that we can do.
+D:Well what I think I might try and build is basically a class that you just feed it a linked list of um different wave-forms and it will just string them all together with maybe I don't know tenth of a second silence in between each one or something.
+E:Yeah.
+D:like that Normalise.
+E:maybe even I mean that's sort of that depends on how how advanced we get If maybe if we realise that there's massive differences in in gain or in something you can probably just make some.
+E:simple.
+D:it yeah Oh yeah.
+E:simple normalization but that really depends on how much time we have and and how much is necessary Yeah if like I I don't know anything about audio and I have never seen the player So if you find that the player accepts some input from memory and if it's easy to do then I guess that's that's fairly doable So but that means in the general structure we're actually quite lucky so we we have we load into memory for the whole series of meetings just the utterances and rankings for the utterances and some information probably that says well the I guess that goes with the utterance who's speaking.
+B:Yes.
+D:yeah we'll need.
+E:Because.
+E:then we.
+D:that.
+E:can also do the display about who's speaking.
+D:We also really wanna be able to search by who's speaking as well.
+E:Yeah But I'm I'm still confused 'cause I thought like that's just what Jonathan we do that we can't do like load a massive document of that size.
+D:It doesn't.
+E:On.
+E:the other hand.
+D:'cause all the calculation's done off-line.
+E:The other hand I mean it shouldn't be like should be like fifty mega-byte in RAM or something it shouldn't be massive should it Actually fifty.
+A:Hmm.
+E:hundred megabyte is quite big in RAM Just thinking what's the so We do get an error message with the project if we load everything into the project with all the data they load So we know that doesn't work So our hope is essentially that we load less into it.
+B:Yes.
+A:Yeah It just.
+E:What's this lazy loading thing somebody explain lazy loading to.
+E:me.
+A:means it loads on demand It only loads when it needs a particular type of file Like when it's being accessed.
+E:Ah okay So that is that only by type of file Like if if if the same thing is in different files would it then maybe like you know if if utterances are split over three or ten or hundred different files is then a chance maybe that it doesn't try to load them all into memory at the same time but just.
+A:Yeah I think that's the idea it just loads the particular.
+E:So why does it fail.
+A:ones.
+A:it needs.
+E:then in the first place Then it shouldn't ever fail because then it should never.
+A:But if you were doing a search over the whole corpus you'd have to.
+E:Yeah but.
+A:load.
+A:them all Hmm.
+E:yeah but um it uh it it failed right when you load it right the NITE X_M_L_ kit so that's interesting.
+B:Oops it does So I define baseline and what it loads For example it loads all the utterances and so on but it doesn't load um the discourse acts and.
+E:Hmm.
+B:for example not the and what's what else there Not the summaries It only loads those on demand.
+E:Let's check that out Um I'll I'll probably ask Jonathan about it So alternatively if we realise we can't do the whole thing in one go we can probably just process some sort of meta-data you know what I mean like sort of sort of for the whole series chunks representing the individual meetings or Like something that represents the whole series in in a in a structure very similar to the structure in which we represent individual um meetings but with data sort of always combined from the whole series so instead of having an single utterance that we display it would probably be like that would be representing a whole um topic a segment in a meeting And sort of so that using the same data.
+B:you mean that you um basically split up the big thing into um different summaries For.
+E:Well in a sense.
+B:example.
+B:that you have a very um top-level um summary and a separate file for for.
+E:Uh I'm.
+B:each.
+B:level.
+E:I'm thinking of in a sense of like creating a virtual a virtual meeting out of the whole meeting series sort of.
+D:That's easy You just like create a new X_M_L_ document.
+E:Yeah sort.
+D:in.
+D:memory.
+E:of like off-line create a virtual meeting which which basically treats the meeting series as if it was a meeting and treats the individual meetings within the series as if they were segments and treats the individual segments within meetings as if they were um utterances You know so we just sort of we shift it one level up.
+B:Mm-hmm.
+E:And in that way we could probably use the same algorithm and just like make like one or two that say okay if you are on a whole document uh a whole series level and that was a double-click then don't just go into that um segment but load a new file or something like it but in general use the same algorithm That would be an alternative if we can't actually load the whole thing and.
+A:Mm.
+E:'Cause also like even if we maybe this whole like maybe I'm worrying too much about the whole series in one thing display because actually I mean probably users wouldn't view that one too often.
+D:I don't think it's really that much of a problem because if it's too big what we can do is just well all the off-line stuff doesn't really matter And all we can do is just process a bit at a time Like for summarisation say we wanted a hundred utterances in the summary just look at the meeting take the top one hundred utterances in each other meeting If it scores higher than the ones already in the summary so far just replace them And then you only have to process one meeting at a time.
+E:Yeah but I'm I'm still worried Like for example for the display if you actually if you want a display uh like for the whole series the information density levels based on and and the and the only granularity you have is individual utterances that means you have to through every single utterance in a series of seventy hours.
+D:Okay.
+E:of meetings Yeah.
+D:so maybe we should build a store a mean measure for the segments.
+D:and meetings as well And speaker.
+E:Yeah and if you make that structurally very similar to the the like one level down like the way how we uh store individual utterances and stuff then maybe we can more or less use the same code and just make a few and stuff Yeah so so but still so in in general we're having we're having utterances and they have a score And that's as much as we really need And of and they also have a time a time information of course.
+E:Hmm And.
+D:Speaker and.
+E:a and a and a speaker.
+E:information yeah.
+D:um topic segmenting we'll need as well.
+E:Yeah so an information which topic they're in yeah.
+D:Yeah Well.
+E:And and probably separate to that an information about the different topics like that Yeah So so the skimming can work on that because the skimming just sort of sorts the utterances and puts as many in as.
+E:it needs Yeah.
+D:yeah and then it'll preserve the order when it's displayed the.
+D:Yeah Yeah.
+E:Yeah it'll it'll play them in some.
+E:order in which they were set because otherwise it's gonna be more entertaining Um but that that's enough data for the skimming.
+D:Yeah I think so.
+E:and.
+E:the the searching so what the searching does is the searching leaves the whole framework goes to the S_Q_L_ database and gets like basically in the end gets just a time marker for where that is like that utterance that we are concerned with And then we have to find I'm sure there's some way in in NITE X_M_L_ to just say set position to that time mark And then it shifts the whole frame and it alerts every single element of the display and.
+A:Hmm.
+E:the display updates Yeah yeah.
+A:Yeah we do not want it in to develop a little tree display as well for multiple results.
+A:Yeah but that'd.
+E:That.
+E:we can yeah.
+A:be.
+A:quite easy.
+E:but so.
+E:so.
+A:to do.
+E:if if so yeah So if in that tree display somebody clicks on something.
+A:You just need to find the time stamp.
+E:Yeah and then you sort of feed the time stamp to and the NITE X_M_L_ central manager and that central manager.
+A:Yeah Yeah.
+E:alerts everything that's there like alerts the like the the audio display alerts the text display alerts the visual display and says we have a new time frame and then they all sort of do their update routines with respect to the current level of zoom So how much do they display and starting position at where the or maybe the mid-position of it I don't know like if start where the thing was found or if that thing was found it's in the middle of the part that we display that I don't know But that we can decide about but a general sort of It's the same thing if like whether you play and it moves forward or whether you jump to a position through search it's essentially for all the window handling it's the same event.
+E:It's only that the event gets triggered by the search routine which sort of push that into NITE X_M_L_ and says please go there now.
+D:So we should basically make our own X_M_L_ document in memory that everyone's um module changes that rather than the underlying data And then have that X_M_L_ uh NITE X_M_L_ document tied to the interface.
+E:Why do we have to do it in memory But that stuff's.
+D:Well.
+E:so.
+D:you can make it in a file if you want.
+E:I mean like the information is coming from off-line So we probably we don't even have to change the utterance document right because the whole way like the whole beauty of the NITE X_M_L_ is that it ties together lots of different files So we can just create an additional X_M_L_ file which for every utterance like the utterances have I_D_s I presume some references.
+D:Mm-hmm.
+E:So we just.
+C:Yeah.
+B:Yes.
+E:we tie uh just a very short X_M_L_ file which it's the only information it has that has whatever a number for for the um weight for the information density and we just tie that to the existing utterances and tie them to the existing speaker changes.
+C:But there is no I_D_ for an utterance I think It's just for individual words So how do we do that then.
+B:Uh no no it's for.
+C:We.
+C:for utterances as well I think it's.
+B:No you're right Yeah.
+B:It's for.
+C:just.
+C:for one word So we.
+A:Yeah I think.
+A:I think those.
+C:have.
+C:to Yeah.
+A:segments for each utterance are split up.
+A:Think so Yeah I'm pretty.
+E:Well otherwise we probably have to go over it and like add some integer that we just increment from top to bottom sort of to every utterance as an as an I_D_ some type Or or try to understand how NITE X_M_L_ I_D_s work and maybe there's some special route we have to follow when we use these I_D_s.
+E:It's hmm.
+A:sure it's already there.
+A:Pretty sure that's already there The the utterances are numbered.
+E:Yeah the the girl said the utterances themselves are not numbered at the moment.
+B:Um.
+C:Uh I'm not quite sure I have.
+E:Okay Okay.
+C:only seen that the.
+C:uh the individual words have.
+E:Okay.
+C:got an I_D_.
+E:Yeah So I guess that would be solvable if not.
+C:Yeah You always could have a look at the time stamps and then take.
+E:Mm-hmm.
+C:the ones that uh belong together to form an utterance.
+B:No.
+E:Sorry.
+B:I I think we would just take the segments that are already.
+C:Yeah if they are.
+B:that.
+B:were Yeah.
+C:already there's it's.
+C:easy but it.
+B:there's.
+B:um.
+E:Okay.
+C:would be possible.
+B:this segments.
+B:file Um you know the.
+E:Okay.
+C:Uh yeah.
+B:X_M_L_ segments.
+A:Hmm.
+C:Okay.
+E:Is that a board marker.
+B:Oh That.
+E:pen actually.
+E:Oh.
+B:I don't.
+A:Yeah.
+A:I think so.
+B:know.
+E:That's just so like to make a list of all this stuff or we probably can somebody can do it on paper All these fancy pens So what so the stuff we have we have utterances and speakers and weights for utterances So for for every utterance sort of like the utterance has a speaker and a weight which is coming from outside Or we just tie it to it And there is segments which.
+D:They are utterances aren't they.
+E:hmm.
+D:The segments are utterances aren't.
+A:that's.
+A:the impression I get yeah.
+E:Oh so.
+D:they.
+D:Yeah.
+E:sorry um Uh topic.
+B:Yeah that's.
+B:um.
+E:topic segments I meant Like they.
+D:Alright okay.
+E:are they are.
+E:a super-unit So.
+B:Mm-hmm.
+A:Oh.
+E:so the utterances are tied to topic segments And if the time stamps are on a word level then we somehow have to extract time stamps for utterances where they start.
+B:There there.
+D:Well.
+D:that's easy.
+B:are.
+B:time stamps um for well segments um.
+E:what segments now.
+B:and.
+B:um segments is for example when when you look at the data what is displayed in one line.
+E:Okay.
+A:Hmm.
+B:What when.
+E:Is.
+E:the uh is.
+B:when you.
+B:look at.
+E:that the.
+E:same as utterances that.
+B:it in.
+B:hmm.
+E:is.
+A:Mm.
+E:that the same as utterances that.
+D:Well it's close enough.
+B:think.
+B:so Isn't.
+D:isn't it It may.
+A:Yeah.
+A:uh.
+D:not be exact every time but.
+B:Um for.
+D:it's a.
+D:sort of size we're looking.
+B:um I.
+B:I.
+D:for.
+B:compared it with what I did for the pause.
+E:Mm-hmm Mm-hmm.
+B:um duration extraction.
+B:Um and basically it's uh words that are uttered in a sequence without pauses But sometimes um however there are um short pauses in it and they're indicated by square.
+E:What so that's.
+B:pause or something.
+A:Right.
+E:Oh But that's one.
+B:in the.
+B:data.
+E:one segment or is that two segments then.
+B:Um uh but uh the annotators decided.
+E:Yeah.
+B:what was one segment and what wasn't.
+E:Okay Okay So but but generally utterances is that which we just called uh sorry segments is that which we just called utterances now Like it's it's.
+B:I.
+E:the it's.
+D:Yeah.
+B:think so.
+E:sort of.
+E:like one person's contribution at a time sort of.
+A:Okay Topics yeah.
+E:Okay so yeah so we have those and and then we have some field somewhere else which has.
+E:Yeah and and a topic's basically they are just on the I_D_ probably with a start time or something and and the utterances referenced to those topics I guess.
+A:Yeah I think that's the.
+E:So the.
+E:topics.
+A:one Hmm.
+E:don't contain any redundant thing of like showing the whole topic again but they just sort of say a number and where they start and where they finish And the utterances then say which topic they belong to.
+B:Yeah but um I think for some annotations um an utterance can have several um types For example for the dialogue acts and so on.
+E:Yeah No But I was thinking of the topic segmentation.
+B:Okay Yeah.
+E:now.
+E:and and.
+B:that.
+B:should be.
+E:for.
+A:Hmm.
+B:for Yeah.
+E:that there would only be one right because it's sort of like it's just.
+E:a time window.
+A:Mm-hmm.
+B:Should be yeah.
+E:Yeah So if this lazy loading works then this should definitely fit into I mean not memory then because it wouldn't all be in memory at the same time So if we just have those sort of that information like a long list of all the utterances slash segments and like short or smaller lists which give weight to them And even though probably if there's a lot of over-head in having two different files we can probably merge the weights into it off-line You know what I mean like.
+D:Yeah.
+E:if if there's a lot of bureaucracy involved with having two different trees and whether one ties to the other because the one has the weight for the other then it's probably quicker to just.
+D:But why don't we just write it as a new X_M_L_ file Can NITE handle just loading arbitrary uh new like attributes and stuff I mean I would have thought they'd make it able to.
+E:Yeah I thought that was the whole beauty.
+D:Yeah.
+E:that like you can just make a new X_M_L_ file and sort of tie that to the other and and it.
+D:So why do we need to have two X_M_L_ trees in memory at once.
+E:Oh yeah So no I didn't I didn't mean tree No No I meant just like handling two different files internally Sort of I was just thinking you know like if if the overhead for having the same amount of data coming from two files instead of from one file is massive then it would probably be for us easy to just like off-line put the the weight into into the file that has the segments uh yeah segments slash utterances already But that we can figure out I mean if it's going horrendously wrong.
+D:The other thing is that would mean we'd be using their parser as well which means we wouldn't have to parse anything which be quite nice.
+E:Yeah.
+D:'Cause their parser is probably much faster than anything we've come up with anyway.
+E:Yeah Yeah no we'd we'd be completely using like the whole infrastructure and basically just I mean the main difference really between our project and theirs really is that we load a different part of the data But otherwise we're doing it the same way that they are doing it So we just we're sort of running different types of queries on it We in a sense we I think we are running queries it's not just about um what we load and what we don't load but we're running queries in the sense that we dynamically select by by weights don't we That we have to check how fast that is like to say give us all the ones that whether that works with their query language whether that's.
+A:Mm.
+E:too many results and whether we You know if 'cause if it let's say I mean if if their query language is strange and if it would return ten million results and it can't handle it then we can just write our individual components in the way that they know which what the threshold is So they still get all the data and just they internally say oh no this is less than three and I'm not gonna display it or something.
+D:Yeah I mean we can process it in chunks if it gets too big basically.
+E:Hmm Yeah.
+D:We can just process it all in chunks.
+D:if.
+E:No.
+D:gets too big to load it into memory.
+E:I'm just thinking for this.
+A:Hmm.
+E:whole thing of like a different level sort of cutting out different different pieces whether we do that through a query where we say give us everything that's above this and this weight or whether we skip the same infrastructure but every individual module like the player and the display say like they still get sort of all the different utterances uh all the different pieces but they say oh this piece I leave out because it's below the current threshold level.
+D:I think we probably want to store Sorry I think we probably want to store um a hierarchical information density as well So like an density score for each meeting and each topic segment 'Cause otherwise we'd be recalculating the same thing over and over and over again.
+A:Yeah that'd be much more efficient to.
+D:Yeah.
+A:do that Yeah.
+D:And that will obviously make it much easier to display.
+E:When do we need the one for the.
+D:Well it may not for the whole meeting but like.
+E:Okay Yeah I guess for the so when we have the display will we display the whole series Then if we have for the individual topic segments within the meetings if we have ready calculated um measures then we don't have to sort of extract that data from.
+D:Yeah exactly.
+E:the individual utterances.
+E:Yeah and that's also fairly easy to store along with our segments isn't it.
+D:Yeah.
+E:For the segments are we extracting some type of title for them that we craft with some fancy algorithm or manually or we're just taking the single most highly valued key-word utterance for the segment heading.
+D:Well we can start off like that Well I was gonna start off I've got sort of half-way through implementing one that does just I_D_F_.
+E:Hmm Hmm.
+D:And then just I can change that to work on.
+D:whatever Yeah.
+E:It's probably like in in the end probably it wouldn't be the best thing if it's just the most highly ranked phrase or key-word because like for example for an introduction that would most definitely not be anything that has any.
+A:Hmm.
+E:title anywhere similar to introduction.
+D:And.
+E:or something Yeah.
+D:it should be weighted by stuff like the hot spots and um the key-words in the.
+D:search and stuff like that.
+E:Also like for this part maybe if we go over it with named entity in the end if I mean if one of the people doing DIL has some.
+A:Hmm.
+E:named entity code to spare and just like at least for the for sort of for finding topics titles for for segments just take a named entity which has a really high what's it called D_F_I_D_F_ whatever 'Cause you'd probably be quite likely if they're talking about a conference or a person that that would be a named entity which is very highly um frequented in that part.
+D:Did he not say something about named entities So I thought he said there wasn't very many.
+E:Yeah he said they're quite sparse So.
+D:Yeah.
+E:that basically was don't bother basing too much of your general calculation on it But like especially if they're sparse probably individual named entities which describe what a what a segment is about would probably be quite good Like if there's some name of some conference they would could probably say that name of the conference quite often even though he's right that they make indirect references to it Anyway.
+C:You uh.
+E:Sorry.
+C:you said you are currently uh implementing the idea What.
+D:Yeah It's not.
+C:exactly are you.
+C:computing Okay.
+D:T_F_I_D_F_ it's just inverse document.
+D:frequency 'Cause it's really easy to do basically.
+C:Okay Mm-hmm.
+D:There's just like for a baseline really.
+A:Yeah you're able to do that in Java yeah.
+D:Well I'm half-way through It's.
+A:Yeah.
+D:not working yet but it will do.
+E:So you're doing that on a on a per word level.
+D:Um yeah.
+E:Okay Okay.
+D:And then averaging it over the utterances.
+D:But it's not like um related to the corpus at all It's just working on an arbitrary text file at the moment.
+E:Okay cool I was just wondering where you had the corpus from at the moment.
+D:No.
+A:Huh.
+E:So it it seems that the data structure isn't a big problem and that basically we don't have to have all these massive discussions of how we exactly interact with the data structure because most of our work isn't done with that data structure in memory in the browser but it's just done off-line and everyone can represent it anyway they want as long as they sort of store it in a useful X_M_L_ representation in the end So.
+D:It.
+E:like.
+D:would be useful to know how everyone's gonna store their things though.
+A:Hmm.
+E:Yeah that would mean understanding the NITE X_M_L_ X_M_L_ sort of.
+D:Yeah Yeah.
+E:format in a lot more detail We should I think we should just have a long session in the computer room together and like now that we know a bit more what we want take a closer look.
+E:at NITE.
+D:Well.
+D:I've.
+E:X_M_L_.
+D:got like a few hours free.
+A:Yeah I've.
+D:Like.
+D:after this.
+A:had a.
+A:I've had a look at the the topic segments how.
+E:Mm-hmm Mm-hmm.
+A:stored And then yeah those are few per meeting and it um well it gives a time stamp and inside each one there's uh the actual like utterance segments.
+A:And the list of them that occurred And they're all numbered Um so that's where that's stored.
+E:Good Yeah I haven't looked at this stuff much at all.
+A:Yeah so I guess um if I'm gonna be segmenting it with.
+E:Yeah Yeah.
+A:a L_C_ then that's like same format I'd want to.
+A:um put it back out in so it'd be equivalent.
+E:Who's who's sort of doing the the the central coordination of of of the browser application now Like.
+A:Well like the integration.
+E:Hmm.
+A:What do you mean integration.
+E:Yeah or but also like all these elements like like the loading and yeah integration and and.
+A:Hmm.
+E:like handling the data loading and stuff.
+A:I don't know I don't think anyone's been allocated to do that yet.
+E:Nah I'm sort of like I think I'll take over the display just because I've started with a bit and found it.
+A:Yeah yeah Yeah definitely.
+E:found it doable.
+E:So somebody should sort of be the one person who's who understands most about what's centrally going on with with the with the project like with the with the browser as a whole and where the data comes in and.
+A:Hmm yeah.
+E:Any volunteers.
+D:It's the most boring task.
+C:Mm-hmm.
+E:It's also a complicated one.
+A:Yeah.
+D:Yeah.
+A:it could be difficult yeah.
+E:Yeah I know but uh I guess we can do it like several people together it's probably just those people have to work together a lot and very closely and just make sure that they're always understand what the other one is doing.
+A:Yeah Well I guess the important thing is to get the crucial modules built.
+D:Or at least um simple versions of them.
+A:yeah Yeah.
+E:Yeah.
+E:or.
+A:and then.
+E:or ready-made versions of them for that matter and.
+A:Yeah and then we'll maybe have to prioritize somebody into just integrating it.
+E:Yeah but I think actually like at the moment the integration comes first I mean it's sort of at the moment the building the browser comes first and then only comes the creating new sophisticated data chunks because that's sort of the whole thing about having a prototype system which is more or less working on on chunk data But it at least we have the framework in which we can then test everything and and look at everything 'Cause before we have that it's gonna be very difficult for anyone to really see how much the work that they're doing is making sense because you just well I guess you can see something from the data that you have in your individual X_M_L_ files files that you create but it would be nice to have some basic system which just displays some stuff.
+D:So maybe we should try doing something really simple like just displaying a whole meeting And like just being able to scroll through it or something like that.
+E:Or just adapt like their like.
+D:Yeah.
+E:just sort of go from their system and and adapt that piece for piece and see how we could how we could like adapt it to our system Does anyone want to like just sit with me and like play for three hours with NITE X_M_L_ at some point.
+D:Are you free after this.
+E:Uh I wouldn't like to be 'cause I'd like to go to the gym I'm theoretically free But if there's any time.
+D:How about Friday then 'Cause.
+E:hmm.
+D:I'm off all Friday.
+E:You have nothing no free time on Wednesday.
+D:Uh Wednesday I've got a nine 'til twelve.
+E:Hmm Nine 'til twelve and then you have.
+D:Yeah nothing.
+E:or.
+E:you Hmm.
+D:in the afternoon.
+D:I've got nothing in the afternoon So.
+E:Anytime Wednesday afternoon I'd be cool.
+D:Okay.
+E:I think.
+D:So you yeah Where about just in Appleton Tower.
+E:Yo Forrest Hill whatever one's easier to discuss stuff I don't know.
+D:Uh I'll be in um.
+E:I'm not biased.
+D:the Appleton anyway.
+E:Okay What time do you wanna do.
+D:Um well I'll be there from twelve I've got some other stuff that needs done on Matlab so if you're not there at twelve I can just work on that.
+E:Okay so I'll just meet.
+D:So Yeah.
+E:you in in eighteen in the afternoon.
+E:I guess at the moment nobody critically depends on like the NITE X_M_L_ stuff working right now right Like at the moment you can all.
+A:Mm-hmm Yeah I.
+E:do your stuff and I can do my L_S_A_ stuff And I can even do the display to a vast degree without actually having their supplying framework working So it's not that crucial.
+C:Yeah I.
+A:think.
+A:so.
+C:I I would need the raw text pretty soon because I have to find out um how I have to put the segments into bins.
+E:Yeah actually I need.
+C:And.
+C:then yeah.
+E:the raw text as well Yeah but.
+E:I was I was I was.
+A:Uh.
+A:yeah.
+E:more thinking of the sort of the the whole browser framework as a running.
+C:No that's not necessary.
+E:programme now.
+E:Yeah I think we all need the raw text in different in different flavours don't we.
+A:Yeah yeah.
+D:Why.
+A:Jasmine I thought you just said that you'd uh looked at extracting the text.
+C:Yes I did But um I've only just got the notes I have to still have uh to order everything by the time.
+A:Yeah So.
+C:and.
+A:you you said you did it in Python yeah.
+C:Yeah I think it's quite easy.
+A:Yeah did.
+C:after.
+C:the Yeah.
+A:you use uh the X_L_ uh X_M_L_ parser.
+A:in Python Right Yeah sounds pretty.
+C:Yeah.
+C:So uh.
+A:good.
+A:So um 'cause yeah I was having a look in it a look at it as well and.
+C:Mm-hmm.
+A:I noticed the um the speakers are all in that separate file So did did you have to combine them all and and then re-order them.
+C:Yeah I uh that's what I was uh thought That.
+A:Yeah yeah.
+C:you just combine them and then order.
+C:the time stamps accordingly.
+A:Right.
+A:Yeah so that's approach um well I was going to do So yeah we may as well collaborate.
+C:Okay Um what I found out was that there are quite a lot of things without without time stamps in the beginning.
+A:In the word files.
+C:Yeah and uh X_M_L_.
+B:Yes.
+B:but that's Yeah.
+C:files Yeah that's just an I_D_ or something I don't.
+C:know Just numbers.
+B:everything.
+B:that's a word has a time stamp.
+C:Yes but what are the other things that's uh some kind of number maybe the file number or something that is in the beginning What is that.
+A:I'm not.
+C:Do.
+C:you know.
+A:sure.
+A:I what you mean.
+C:Um I think there are quite a lot of numbers in the beginning where there is no time stamp for the numbers It's Think they say um quite a lot of numbers and before that uh um there's this number Was.
+E:But.
+C:it.
+E:number within the X_M_L_ context.
+C:Yeah there are numbers in the um the W_ tag but there are no time stamps.
+E:Are they spoken numbers Like do they look like they're utterances.
+C:Yeah.
+E:numbers There's the number task isn't there That's.
+B:That's at.
+E:part.
+E:of the.
+B:the.
+B:end.
+E:whole thing Hmm Okay.
+B:That's at the end I think.
+C:Yeah in.
+B:her.
+B:time.
+C:the beginning as well sometimes I think.
+A:Oh right.
+C:At least I saw some.
+B:Yeah maybe Didn't.
+E:Hmm.
+E:Yeah we have to probably.
+B:have.
+B:a look at our meetings.
+E:cut.
+E:that out anyway for our project I don't know It's probably gonna screw up a lot of our data otherwise.
+C:Yeah.
+E:If.
+A:Hmm.
+B:Uh I.
+E:Not sure if it what it.
+E:does to document.
+B:I.
+B:think it wouldn't as it occurs I mean it would be it occurs in every meeting So.
+E:It would probably make the yeah if if you have segments for that probably.
+B:And.
+E:the Okay.
+B:I think it even has uh its own annotation like digits or something So.
+B:that should be really easy to.
+E:Uh I'm just thinking like.
+B:cut.
+B:out Yeah.
+E:it it probably like the L_S_A_ would perform quite well on it It would probably find another number task quite easily seeing that it's.
+E:a constrained.
+B:I'm sure.
+E:vocabulary with a high co-occurrence of the same nine words So that.
+C:But what it.
+E:ten.
+E:word Hmm.
+C:is it actually that numbers.
+B:Ah it's just to test the system I think.
+E:Yeah.
+C:Okay so but there.
+B:So.
+C:are no time stamps annotated.
+E:I think it's also something.
+C:to that.
+C:It's it's quite.
+E:that they.
+E:they said.
+C:strange.
+E:the numbers in order right.
+B:Mm they have to read numbers.
+E:Yeah.
+B:from Uh.
+E:I think it's it the it sounded like they wanted to check out how well they were doing with overlapping and stuff because basically it's like they're reading them at different speeds but you know in which order they are said.
+E:Anyway.
+B:I didn't have a look at that So.
+E:ICSI has some reasons for doing it.
+A:Hmm.
+E:They must have been pissed off saying like numbers at the end of every meeting.
+C:And also um there are different um combinations of letters B_R_E_ and something like that Is it everything ordered are the time stamps global or uh are they local at any point.
+A:Mm I thought they were local.
+B:They.
+A:to a particular meeting.
+C:Okay.
+E:Um Dave if you would or actually for well if you're doing I_D_F_s or you whatever you call your your frequencies I always mix up the name uh you need some dictionary for that at some point though like you need to have some representation of a word as not not that specific occurrence of that word token but of of of a given word form Because you're making.
+D:Yeah I'm.
+E:counts for word.
+E:forms right.
+D:just building.
+D:a dictionary.
+E:Yeah so we should work together on that because I need a dictionary as well.
+D:Oh mine's just gonna use the um hash map one in um Java 'Cause I'm only gonna do it on small documents.
+E:Okay 'Kay.
+D:It's just like until the information density.
+D:is up and running Just something to get give me something to work with.
+E:Okay Didn't you say that the.
+D:So it's only.
+E:the.
+D:gonna use quite small documents you see to start with.
+E:Yeah but for I'm just wondering for the whole thing Does somebody who was it of you two who said that um there's some programme which spits out a dictionary probably with frequencies.
+C:Yeah it's Rainbow It's um I think it's just the dictionary in the first place But.
+E:Okay Is anyone of you for the for the document frequency over total frequency you gonna have total frequencies of words then with that right Like over the whole corpus.
+C:Um.
+E:sort of Or.
+C:no I have to bin it up and so I will only have counts for each each bin or something.
+D:Why does it need to be classified into like different segments.
+C:It's because um Rainbow is a text classification system And I think it's not possible to have just one class That's the problem.
+D:Can we just fill a second class with junk that we don't care about.
+C:Maybe we could.
+D:Like I don't know copies of Shakespeare or something.
+C:Yeah sure you sure we could do that but I don't that makes sense.
+D:'Cause if what we're looking for is the um frequency statistics I don't see how that would be changed by the classification.
+C:If we need just frequencies maybe we should just calculate them by.
+D:I the.
+C:using Perl or something I don't know.
+D:Well there maybe another tool available.
+C:Yeah it's quite easy to just count and or sort.
+D:Yeah.
+C:them by um frequency.
+E:using which tool are you talking about.
+C:Just using a Perl script.
+E:Be careful with that Like my experience with the British National Corpus was that there's.
+C:Is it too.
+E:far.
+E:more.
+C:big Yeah.
+E:word types than you ever think because anything that's sort of unusual generally is a new.
+E:word type Like any typo or any strange thing where they put two words together And also any number as a word type of its own So you can easily end up with hundred thousands of words when you.
+C:Hmm.
+E:didn't expect them So generally dictionaries can grow bigger then you think they do.
+C:I don't know how you how many terms you can handle in Perl.
+E:Well you can probably also you can probably pre-filter like with regular expressions even just say if it consists of only digits then skip it or even.
+C:Mm yeah.
+E:if it consists any special characters then skip it because it's probably something with a dot in between which is usually not something you wanna have and.
+D:Um I can't remember who's got it Might be WordNet But one of these big has a list of stop words that you can download and they're just basically lists of really uninteresting boring words that we could filter out before we do that It's like that's one the papers I read that's um one things they did right at the beginning is they've got this big stop-list and they just ignore all of those throughout.
+E:What I did.
+D:the experiment Yeah.
+E:for my project I just ignored the hundred most frequent words because they actually end up all being articles and and everything and stuff So we need like several of us need a dictionary Am I the only one who needs.
+E:it with frequencies.
+D:I it would be useful for me as well.
+E:Am I the only one who needs it with frequencies Or.
+D:It uh I think that'd be useful for me as well.
+E:Frequencies.
+D:Yeah Yeah.
+E:Yeah Well I guess as soon as we have the raw text we can probably just start with the Java hash map and like.
+E:just hash map over it and see how far we get I mean we can probably on a machine with a few hundred megabyte RAM you can go quite far You can write it on beefy So even if it goes wrong and even if it has a million.
+D:Well all you really.
+E:words.
+D:wanna do is look into getting some sub-set of the ICSI corpus off the DICE machines 'Cause I hate working on DICE It's awful Like so I can use my home machine.
+E:Oh yeah burning it on a like we should be able to burn the.
+D:has a C_D_.
+E:whole corpus.
+E:just the X_ hmm.
+D:burner.
+D:though has a C_D_ burner.
+E:Ah I see I asked support about that two days ago In the Informatics building there oh sorry in in Appleton Tower five the ones closest two machines closest to the support office So I presume oh wait I have the exact email I think he's talking.
+D:Yeah The right-hand corner far.
+E:about sort of the ones that.
+E:Yeah.
+D:right Yeah.
+E:if you if you enter the big room in the right-hand corner I think.
+B:Mm-hmm.
+E:Um the thing is like you can only burn from the local file-system So if it's from well actually I think if it's mounted you can directly burn from there but the problem is I have my data on beefy and so I have to get it into the local temp directory and burn it from there But you can burn it from there.
+D:How big is it without um.
+E:Uh we looked that up and.
+D:the.
+D:WAV files and.
+E:I.
+E:we.
+D:stuff.
+E:looked that up and I forgot.
+D:'Cause I could just say at um going over S_C_P_ one night and just leave it going all night if I had to.
+E:Yeah yeah No you you we should be able to get it at I don't think it was I don't think it was a gigabyte.
+D:It's yeah I mean.
+E:Hmm.
+D:the wave data are obviously not gonna get off there completely.
+E:See I would I would offer you to to get it on this one and then um like copy it But you know what I figured out I'm quicker down-loading over broad-band into my.
+D:Really Oh.
+E:computer than using this.
+E:hard disk.
+D:right.
+E:There's something strange about the way how they access the hard disk how they mount it which is unfortunate.
+D:I'll see if I can S_C_P_ it I suppose.
+E:Hmm What operating system do you have.
+D:I've got a Linux box and a Windows.
+E:Okay.
+D:box So Broad-band.
+E:what connection do you have at home.
+E:Yeah So if anyone of us gets it we can then just use.
+D:Put on to C_D_.
+E:an.
+E:hmm Yeah.
+D:I can if.
+D:I get down.
+E:burn.
+E:it to C_D_.
+D:I.
+D:can put to C_D_.
+E:or.
+E:yeah put it on on hard disk whatever.
+D:Yeah not sure.
+E:Question is if you're not quicker if you uh because you should get massive compression out of that Like fifty percent or something with a good algorithm So if you could compress it and just put it into a directory.
+E:Like The.
+D:if there's enough space Is.
+D:how much do we get.
+E:the usually have for gigabyte three or.
+D:Really Okay.
+E:two The.
+E:yeah I like I mean there's not guarantee that anything stays there but overnight it'll stay And I think the usually have Ah yeah but that would have to be the directory off the machine you can S_S_H_ into directory of S_S_H_.
+D:Yeah but I can do it from that session can't I You can compress it from a remote session and S_C_P_ it from the same session.
+E:Yeah they they'd they'd probably hate you for doing it But They'd probably they'd like you more if you S_S_H_ uh into another computer compress it there and then sort of copy it into the into the gateway machine.
+D:Do you think Yeah.
+E:They have um if you S_S_ hey you know if you if you S_S_H_ and they have this big warning about doing nothing.
+E:at all in the gateway machine.
+D:Oh no no I was thinking of just into some machine.
+E:Yeah To your home machine.
+D:and then just it from there.
+D:Yeah I mean it has to go through the gateway.
+E:I haven't.
+D:But Can you.
+E:I haven't figured out how to tunnel through the gateway into another.
+E:machine yet.
+D:not do.
+D:that Mm.
+E:It's not it's not easy definitely That's why I end up sort of copying stuff into the directory at the gateway.
+E:machine.
+D:I see.
+E:Sorry if this is boring everybody else This is just details and how to get stuff home from what we.
+B:Uh yeah.
+E:can probably just.
+E:look at that together when we're meeting.
+D:Yeah.
+B:'Kay Um I just um wondered so who's uh then doing um the frequencies on on the words because I'm I think I will also um I could also make use of it um for the agreement and disagreement thing Because I um I in my outline.
+E:I'm sorry Mm-hmm.
+B:I talked about um using the um discourse acts first.
+B:and um then in the chunks of text I found looking for word patterns and so on So um I would for example need the um most um frequent words.
+E:Well yeah.
+B:So if you cut.
+B:off all that I'd won't be.
+E:As soon as.
+B:use.
+B:or.
+E:somebody gives me the raw text of the whole thing I can probably just implement like a five line Java hash table frequency dictionary builder and see.
+B:Yeah I I but I need it for my chunks then I would You know.
+E:Oh did you not say frequencies of words in the whole sorry did.
+B:Yeah.
+E:uh.
+B:but I'd uh I would like to look at the frequency of words in my um in the regions of text I found out to be interesting So.
+D:So you.
+B:I.
+B:wouldn't need it.
+D:could just.
+E:So you'd you.
+B:It it.
+B:would have to be re-calculated.
+E:Yeah you'd.
+B:only.
+B:for segments.
+E:have to count.
+E:it yourself yeah.
+D:But first uh how big are the chunks.
+B:Huh.
+D:How big are the chunks you're looking at.
+B:Uh uh mm I think it would be you know as as big at as the hot-spot annotation.
+D:So quite small then.
+B:things.
+B:That's quite small yeah that's.
+D:So.
+D:you could just.
+B:some utterances.
+D:um you could use just.
+A:Hmm.
+D:the same thing we used to build the big dictionary You just do that on-line 'cause that won't take long to build a little dictionary that big will it I mean just use the same tool that.
+B:Yes Yeah.
+D:we.
+D:use Yeah.
+B:yeah.
+B:So I would probably just concatenate all my.
+D:Yeah.
+B:um text chunks and then let's say I will run over it.
+E:Oh you don't wanna have different counts for each chunk but just like sort of for for something from old chunks.
+B:Yes.
+E:Oh yeah no that's yeah so once I write an like if I write like an algorithm which does a hash um table dictionary with frequency from a raw text then the raw text can be anything So how far are we uh how how far are you getting raw text out of it do you think.
+C:Uh I can get all the raw text but it has to be ordered still So.
+E:Okay well that's good because for the dictionary the order doesn't.
+D:It doesn't need ordered.
+E:make a difference.
+E:does it So.
+D:no.
+C:No it isn't.
+E:yeah so um I'll get that from you and I'll write the hash table which goes over that and creates a dictionary file So for the dictionary is it okay if I do whatever word blank frequency or something Just could everybody sort of start from that I mean.
+D:Um.
+E:I guess we can.
+D:well that's the are you using T_F_I_D_F_ for the information density.
+C:Um it's in what is implemented in Rainbow is information gain and I'm not quite.
+D:Alright okay.
+C:sure how they.
+C:calculate that.
+D:Like 'cause frequency would be useful I think.
+E:Yeah.
+C:Yeah.
+D:But um.
+E:I.
+E:I need frequency as well.
+D:depending on the context the size and what we consider a document in the sense of calculating T_F_I_D_F_ is gonna change Which might need thinking about.
+E:Well I think we might have a lot in common what we calculate because I for my latent semantic analysis need like counts of words within a document uh within a a segment actually within a topic segment.
+C:Uh that's what Rainbow does I think you can just get probabilities for a certain words for each document Certain.
+E:Can I convert these probabilities back into frequencies.
+C:Um we would have to look at that.
+E:Okay Oh so that's what Rainbow does because that's what L_S_A_ builds on Like it builds.
+C:Mm-hmm Oh.
+E:a a document by frequency matrix.
+E:So I could probably get that Even though but I already have I already have my code to build it up myself No don't bother I have my code already Um Yeah so Dave you said you need the frequency counts actually.
+D:I.
+E:for.
+D:think it would be useful yeah.
+E:per document would you say not for the whole.
+D:Well.
+E:thing.
+D:you need the raw frequency as well But um you also need how many times things occur within each document And um what we consider a document's gonna depend on our context I think 'Cause if we're looking at the whole lot of meetings we'll consider each meeting a document in sort of terms of this algorithm And if we're viewing like say just a small topic segment you might look at even each utterance as a small document.
+E:It more and more appears to me that if we if we scrap the notion of the meeting as an individual thing and sort of see meetings as as topic segments and have sort of like hierarchical topic segmentation instead then it's like.
+D:Yeah but the.
+E:a more.
+E:coherent framework.
+D:thing is.
+D:um It's gonna need some thought of how we Actually maybe it doesn't actually matter Maybe if you just do it once at the highest level it it will be fine But I was just thinking it might be difficult to calculate the T_F_I_D_F_ off-line for all the different levels we might want 'Cause if we're gonna allow disjoint segments for example then how are we gonna know what's gonna be in context at any given time But I suppose if you just did it globally treating a meeting as a document it'd probably still be work out fine because you'd only be comparing.
+E:Wait are we.
+D:to.
+D:ones within the context.
+E:are we using this um for the for the for the for the weighting in the end now this this measure you're calculating.
+D:Uh I don't know I thought were you gonna use that in the end The information density.
+E:Because if we're doing Like I think for for the information density we uh we should calculate it on the lowest level not on the highest But like 'cause.
+D:Oh sorry that's what I mean Like um yeah for each word or whatever but across the whole lot is what I mean by highest level Like across the whole corpus.
+E:Yeah but it don't you have to like go sort of like for in a document versus the whole thing Isn't that how it works that you look look.
+D:Yeah.
+E:at.
+D:but you'd probably look at each meeting as a document.
+E:I don't think that's a good idea because isn't it like that we expect there to change over with different topic segments more That they talk about something different in each different topic segment.
+D:Mm possibly.
+E:'Cause that's what relative term frequency is about that like in some context they're talking more about a certain word than in general So that would more be the the topic segments then.
+C:Yeah that's.
+E:I don't.
+E:know Yeah.
+C:what I thought as well that you.
+C:that probably the the topic segment level is the most um informative for.
+E:Yeah Yeah.
+C:the words Yeah that's.
+D:Are they big enough to get anything meaningful.
+D:out of.
+C:the.
+C:problem I don't know.
+E:So I'm just wondering if there's ways to abandon the whole concept of of meetings and sort of but just not really treating separate meetings as too much of a separate entity.
+D:Well yeah.
+E:But.
+D:that is not it's not an issue You just concatenate an X_M_L_ file together but we still want to have like a notion of meetings for the user.
+B:Yes definitely.
+E:But on algorithmic level whether we actually whether there's some way to just represent meetings as as topics.
+D:sure Yeah you just like whatever you want to look at you just jam together into an X_M_L_ file and that's your meeting even though bits of it may come from all over the place or.
+E:Hmm.
+D:whatever I mean I don't see why that's really a big problem.
+E:That's not really what I meant But I think I have to think more about what I meant Um I'm confused about everything.
+D:So basically what you're saying is you can take an arbitrary amount of data and process it with the same algorithm It doesn't matter conceptually what that data is It could be a meeting it could be two utterances it could.
+E:Yeah.
+D:be a meeting plus half a meeting from somewhere else.
+E:I'm I'm not so concerned about the a meeting plus something else I'm more talking about like yeah the keeping keeping the same algorithm and the same way of handling it and just saying like just this this topic here uh it happens to be like a whole meeting and it has sort of sub-topics so just that sort of topics a hierarchical concept where like a topic where there can be super-topics and topics and the super-topics are in the end what the meetings are but in general at some level super-topics are treated like like topics.
+D:I don't think it's very difficult though I mean what you do is you just build an X_M_L_ file and if you want it to get down to the utterances you'd go to the leaves And then if you wanted the next level up you'd go to the parents of those and like just go from like the leaves inwards towards the branch to build up things like um you know when you click on a segment it's gonna have like words or whatever that are important.
+E:Hmm Mm I'm not really sure what I want.
+D:As long as like the algorithms are designed um with it in mind I don't think it's a very big problem.
+E:So sorry could describe that again the.
+D:Well like say you had um like say for a meeting right you've got like uh say a hierarchy that looks quite big like this And like the utterances come off of here maybe.
+E:Mm-hmm Mm-hmm.
+D:Then when whatever your algorithm is doing.
+D:as long as when you're working with utterances you go for all the leaves like then if you need something next up so like a topic segment you'd go to here But if you were looking at say this one so only went like this Right so you it's same you'd start with the leaves and you go oh I want a topic segment So I go one layer up.
+E:Mm-hmm.
+D:See and then if you're working with just a topic segment in there it's the only thing you have to worry about And like each time you want a higher level you just need to go up the tree And as long as your algorithm respects that then we can just process any arbitrary X_M_L_ file with whatever hierarchical structure we want.
+E:So that would be the series as a whole That would be sort of.
+D:A meeting say and that would.
+E:meetings.
+E:yeah.
+D:be a topic segment.
+E:Yeah I'm a I'm a I'm a bit brain-damaged at the moment but I think I'll just sit together with you again and and go through it again.
+D:So I think as long as you build an algorithm that respects whatever structure's in the file.
+E:Hmm.
+D:rather than imposing its own structure.
+E:So so I'll is it like is this and this structurally then always identical.
+D:Well no it doesn't have.
+E:So that.
+E:we can.
+D:to be.
+E:that we can treat it with the same algorithm or.
+D:But I mean it could be as many nodes as you want Like this one could be deeper maybe say So then you'd start with all your utterances here and when you go up to get topic segments you go to here here here here here here here That might be a bit confusing though 'cause you have things on different levels.
+E:Yeah I'm also not sure how we can go from from bottom-up I have always thought it's like more that oh whatever I'm a can't think of it at the moment Probably this is all too complicated worrying about that at that moment anyway.
+A:Mm is there anything else we should discuss.
+E:Now have have we have we decided anything are we doing anything.
+D:Well Wednesday Yeah.
+E:Wednesday we are meeting.
+E:and looking at their at their implementation in.
+D:Yeah.
+E:some more detail to actually understand what's going on.
+D:So we'll see if we can get like a mini-browser just displays two things synched together.
+E:We had two things.
+D:of some.
+D:kind Yeah.
+E:from their stuff just.
+E:to make sure that.
+D:Yeah.
+E:we are like understand it we understand it enough to to modify it.
+A:Yeah should we not have like a group directory or something where we can put all our code in and that kinda thing.
+D:It'd be useful I don't know who you see about that though.
+A:Hmm I've gotten.
+E:Yep How would we do that By just making like it read write for everyone 'Kay who has most free space on their.
+C:Mm-hmm.
+A:mm hardly any.
+D:I have.
+D:idea.
+E:Same here.
+D:I've probably got a reasonable amount because um everything on my DICE account can actually be deleted 'cause I store it all at home as well.
+A:Hmm.
+E:Well we alternatively we can probably just make another directory on the beefy scratch space I mean that's where I'm having gigabytes and gigabytes of stuff at the moment.
+D:Is that guaranteed to stay the.
+E:No No Yeah.
+A:Yeah we can ask Steve if um we can get space.
+D:Maybe you should send a support form.
+A:Yeah uh we.
+E:But.
+E:I think if.
+A:could do.
+D:Just.
+E:he.
+A:that.
+D:say we want.
+E:sends.
+E:to the.
+D:some.
+D:web space.
+E:I think.
+E:if he sends to the port he'd probably be.
+D:Listen to.
+E:in.
+E:a better position Yeah.
+A:Yeah I'm sure he had to deal with that last year.
+D:Yeah 'Cause that'd be really useful is if we had a big directory Especially for transferring stuff.
+E:Hmm.
+D:Having said that are we allowed to take a copy of the ICSI corpus Something we should probably ask before we do it.
+E:I think he said yes to that I think uh that was like in when we were still in the seminar room I asked that once.
+D:Okay Okay.
+E:or like ask is it possible to get it off and nobody said like people were discussing about the technical practicalities but nobody said anything about being allowed to or not allowed to I mean we have access to it here and I guess it probably means that we we can't give it to anybody else But.
+E:but if they give us access to it here sitting on a DICE machine then there shouldn't be a reason why we shouldn't be able to use it on our laptop I personally don't have too many friends who would be too keen on getting it anyway.
+D:No me neither.
+B:Yeah right.
+E:I have that really excited pirate copied thing It annotated meeting data.
+C:So shall we sit together tomorrow then as well Uh.
+A:Yeah.
+C:Okay.
+B:Um Jasmine uh um what is um the text you're extracting uh looking like then at the end.
+C:Um yeah would it be best At the moment it's.
+B:Because um.
+C:it's just.
+C:lines of.
+B:I.
+B:I think it's actually very similar to what I did for my.
+C:Mm-hmm Um.
+B:um speaker um uh extraction and I think I would perhaps have to change two lines of codes to get you um for each meeting a file that says from um this millisecond to this millisecond there was this sequence of words And so on.
+B:So that's just changing two lines of code And it would give you that So.
+C:Okay So um you'd do you extract the words the raw text as well.
+B:Um.
+C:Uh Okay.
+B:yeah So far I extracted um the durations.
+B:But it's from the words file So I could.
+C:Mm-hmm Print out.
+B:just um.
+B:concatenate um the words instead of the durations and it should I mean Should be very straight-forward I can try to do it and send it to you.
+C:Okay Okay.
+B:and.
+B:you.
+C:that Okay.
+B:have a look at it will it make sense for what you want.
+E:Huh.
+C:So have we already extracted from all the files.
+B:Yeah uh I mean it.
+C:Yeah Did you also order.
+B:I just let it run over all the files So.
+B:Yes.
+C:Mm-hmm.
+E:Wait wait wait Um.
+B:I just.
+B:ordered.
+E:sorry Yeah sorry.
+B:Uh I ordered according to the um starting times.
+C:Hmm.
+B:the utterances.
+E:What I just realised we should really keep different completely separate for virtually all purposes Just let's be careful about that because.
+B:What do you mean by.
+E:like the the ICSI corpus isn't isn't one meeting series it's several meeting series with different people meeting for completely different things.
+B:Yeah I mean I I have one what I give you would be one file for each meeting.
+E:For each meeting Alright.
+B:Yeah not for each.
+B:meeting series didn't.
+E:Okay but.
+E:like.
+B:do that yet Yeah one.
+E:let's just be careful that whatever we sort of we merge together that like the highest level of merging it's not the whole ICSI corpus but individual series.
+C:Hmm.
+B:group yeah.
+D:Might be funny to see what is summarised the whole corpus as anyway.
+E:I think we might actually I think That's.
+D:I think it'd be very useful But.
+E:probably be somewhere like well or something like it Um I think we might just get away with for the whole project just like looking at only one series and just doing within one series I mean you can do everything you want in one series.
+B:Yeah I mean there's one series that has just one meeting.
+E:Oh yeah let's take that.
+A:That sounds.
+A:good.
+E:Is the is the data always clearly split up by different series Uh like is it easy to just pick.
+B:Um.
+E:one Okay.
+B:the you you the data is of the form you have um three identification letter So.
+B:B_E_D_ or B_B_D_ or something.
+E:Okay Okay.
+B:and that's always the same group.
+B:And then after that there's um a number like O_O_ one O_O_ two So.
+E:Okay.
+B:it's Yeah.
+E:So at at every level everyone has to be careful to really just take even at the highest level just take stuff from one series and not merge stuff from different series.
+E:together because.
+B:but that's that's.
+A:Hmm.
+E:they would probably be just.
+B:really.
+B:quite easy to see because.
+E:messy.
+E:Yeah so.
+B:they're named.
+E:so so like if even if we make one single text file which has the whole corpus sort of our corpus that would still be from one series only but it what you're producing at the moment is like individual text files that sort of have the raw text for a whole a meeting as a whole or.
+B:Yes But I I mean as um the uh start times.
+E:Mm-hmm Yeah.
+B:um start for each meeting at zero you could just probably just um add the um final second time to the next meeting and so on and just put it all together But.
+B:then we would have to change um the information about who on which channel it was set um to by which person it was set And that is actually stored in another X_M_L_ document.
+A:Hmm.
+E:'Kay Um so is is anybody creating an uh a real raw text thing at the moment like which is just the words.
+A:Yeah that's what I'm gonna need.
+E:Yeah 'cause that's what I'm gonna.
+B:Yeah.
+B:I.
+E:need as well.
+B:would then just not print out the um.
+A:Yes.
+B:start and end times.
+E:But but if there.
+A:it's just.
+A:changing.
+C:Okay.
+E:uh.
+A:it a bit.
+E:aren't like so it's it's start and end times just for the file Like is it just the first and the last line Or is it for every single.
+B:No for every single word.
+E:thing in.
+D:We can just.
+B:Or.
+B:for single utterance Yeah.
+D:change the code.
+A:Yeah.
+B:that depends on.
+E:So.
+E:what do you.
+B:you.
+B:want.
+E:mean by just not print out that.
+B:Yeah but I do it with Perl it's just string manipulation So I would.
+E:Okay.
+B:I mean I would just.
+E:If you're into it can you make a text file which just like makes just the words.
+B:Sure No.
+E:'Kay Do you want it straight flowing 'cause I would need something that marks the end of uh of uh is is yours segmented by topics then that like is there any information that you have to the topic to the automated.
+E:topic segmentation.
+B:I didn't.
+B:do a no.
+E:Oh then I need something different later anyway Okay but.
+A:No but.
+E:for.
+E:now if you.
+A:uh.
+A:that's what M_L_C_ does It it marks the end of each segment.
+E:Okay You're gonna put that as an output of yours the.
+A:Yeah Yeah.
+E:segmentation Okay so for now can you create like sort of just uh a dump which is pure text just pure text so that I can get a dictionary and you can work on that for your topic segmentation.
+E:And.
+B:And you would want that all in one file for all the corpus Or.
+E:Or for for the series But I.
+B:For the series.
+E:can.
+E:but I can also deal with separate files I mean I can just write the algorithm that it loads all files in a directory or something But I mean if.
+B:Yeah.
+E:you But if you can.
+B:I can directly put it into uh.
+B:just like.
+E:put.
+E:it in one single mega-file that would be quite useful for me.
+A:Oh.
+B:So uh only words um per meeting series.
+E:Even though for you wouldn't it be easier if you had different files because then you sort of know.
+A:Yeah.
+E:like Yeah.
+A:Yeah for me it's better if they're.
+A:by meeting.
+E:So give give me different files as long as like it if you could name them in a way that.
+B:Uh-huh Yes.
+E:is easy to enumerate over them like whatever one two three four five or something.
+E:Or just anything that I can.
+B:Yeah they will just I will just take I would uh take over the names they have anyway.
+E:Yeah Is is it something that's easily like to enumerate over Is it some just some.
+B:Yeah yeah.
+E:ordered.
+E:pattern Okay cool.
+B:Yeah.
+B:one series has the um same three starting letters So.
+E:Okay cool Yeah.
+B:So only words and words and times And.
+C:Uh.
+B:you.
+C:I don't need the times I just need the words But um.
+E:In the right order.
+B:Yeah you want.
+C:Yeah.
+C:in the right.
+B:it.
+B:ordered Okay.
+C:order Yes.
+E:It's.
+B:Okay anybody.
+E:just a wish list Orders.
+B:Um base dot times Yeah and do you want Yeah sometimes they're contained in one another So.
+C:Yeah that doesn't matter too much.
+B:Just.
+C:I think.
+B:after mm-hmm 'Kay Ordered Only words.
+E:When do you think you'll have um like a primitive segmentation by some ready-made topic segmentation by some ready-made tool ready.
+A:Then that'll be really easy to do once they've got the raw text It's just.
+E:Okay.
+A:a case of running the script.
+E:Okay cool 'Cause I'll need that then when it's done.
+A:Yeah I mean hopefully this week.
+E:Okay Mm-hmm.
+B:Um and I think um for all the corpus it's just from I know from other times it's um nine byte.
+B:to have I mean be should be similar.
+D:Is that it That's quite.
+B:have the.
+B:words Should be.
+D:good.
+E:What's what's nine megabyte The the.
+B:um all the words together um for all the meetings.
+A:Alright.
+E:That sounds quite reasonable That's nine nine.
+B:That's what I'm guessing.
+E:characters.
+E:over okay.
+B:that's you know um.
+B:what I because nine mega-byte is what I got for when I said for every um utterance this.
+E:Okay Okay That is.
+B:is goes from there to there and.
+B:takes takes.
+E:for are we.
+E:are we.
+B:seconds.
+E:picking one particular series at the moment Or.
+A:And we could.
+B:Oh.
+B:Yeah I mean.
+E:Yes.
+B:I'm it doing it for all of it Doesn't matter.
+E:Okay Yeah Yeah I guess we can probably process the data for all different series and then check which series is the best for the.
+D:Yeah.
+E:presentation It sounds quite reasonable nine megabyte I mean if you think if it's roughly a million words and nine characters.
+B:Yeah I mean.
+E:per word sounds.
+B:I hope it will be the same for the words It's just what I.
+E:Yeah Yes I'm gonna build a dictionary then from that Like just a list of the words that maybe a list of the words with the frequencies or a list of the words sorted.
+B:I.
+E:alphabetically or numerically What what does anyone want Does this there any wishes for dictionaries.
+D:I could just use it with the frequency I think until the information density thing's finished That would be really useful.
+B:Mm-hmm Mm.
+C:Hmm.
+E:So I'll create a dictionary.
+B:So.
+B:so um I will probably send um just one file of the first meeting um to all those who need it so that you can have a look whether.
+E:Add add.
+B:that's.
+B:what you want.
+E:the structure.
+E:yeah.
+C:Mm-hmm.
+E:And then the actual file we can probably like copy from your home directory or something like it.
+B:Yeah I mean if it's just for one meeting it's really not too big.
+E:Yeah yeah but I'm I'm saying for the whole thing in the end Then like.
+B:Yeah.
+E:the big thing we probably shouldn't do by email Yeah.
+C:How long would it take to make the frequency counts with a Java hash table.
+E:Oh from the time I get the file I can do that in an afternoon the next sort of the next morning.
+C:Yeah.
+E:Oh you mean how long processing time it takes.
+C:No how long you would have to program something.
+E:Ah it's a it's a bog standard algorithm I've I've sort of I've written it for for DIL just in half an hour or something similar.
+C:Okay Mm.
+E:It's just you put them in a hash table and and say well if it exists already in the hash table then you increase the count by one and.
+E:I'll probably implement some filter for filtering out numbers or something.
+C:Because it's quite easy in Perl as well it's just a line of code for counting all the words and.
+E:Really How do you do that.
+C:yeah.
+C:it's by hashes Yeah.
+E:Okay well I don't know any Perl.
+E:I mean if anyone wants to do a Perl script for that that does it.
+C:Yeah 'Kay.
+E:does it nicely I uh I've no problem with that I but I think I have the Java code virtually ready because for DIL I wrote.
+E:something very similar Like for DIL I wrote something that counts the the different occurrences of all the tags um.
+D:If you're doing it in Java could you um serialize the output as well as writing it to a file.
+E:Sorry The hash table.
+D:If you're doing it in Java could you serialize the um dictionary.
+D:yeah as well as writing it to a file.
+E:Uh I've never serialized anything.
+D:It's.
+D:really easy.
+E:Wouldn't that be absolutely massive though.
+D:I don't see why it'd be any more massive than the file.
+E:And then and then write the serialization to a file.
+D:Yeah It.
+E:So you want like a like a file which is the serialization of a.
+E:hash table.
+D:just.
+D:saves you parsing the um.
+E:Okay.
+D:file representation of it And now 'cause I would be using it in Java anyway So I'd just be building the data structure again.
+E:Yeah I I'll I'll check if I understand how it works I mean otherwise I can give you the code for loading a dictionary Give you my my it's just it's it's sort of it's a line break separated file you.
+D:Yeah.
+E:know.
+D:but it seems like a bit silly to be parsing it over and over again kinda thing.
+E:Yeah Yeah I'll see if I understand how to serialize There's a there's a serialise command so that gives me one mega.
+D:I.
+E:mother of a.
+D:thought that um I think all the collections and things implement serializable already.
+E:Yeah but do they automatically write to the file anyway I'll I'll figure.
+D:I think.
+E:that.
+E:out We.
+D:they.
+D:might do.
+E:don't have.
+E:to Yes is that pretty much pretty much it So Dave and me look at how NITE X_M_L_ works and.
+D:Tonight.
+E:we're.
+D:I'll try and um I'll either work some more on uh the T_F_I_D_F_ summarizer or do the audio thing.
+E:Hmm I'll build a dictionary as soon as I get the text And yeah so that When do we have to meet again then with this.
+A:Don't know Suppose we're just getting on with all our.
+D:Yeah.
+A:components So.
+E:How are we gonna do a demonstrator next week My God.
+D:Do.
+A:I.
+D:we have to demonstrate something next week.
+B:What do we have to demonstrate.
+E:No no not demonstrate but like didn't you say that uh didn't we sort of agree that it would be useful to have a demonstrator of it like some primitive thing working next.
+A:Yeah.
+E:week.
+A:Yeah he suggested that we could have an uh initial prototype.
+E:That's gotta be very prototype.
+A:I know I'd.
+D:Yeah.
+A:I'd be surprised if we can get anything working by next week.
+E:Mm-hmm Ah well let's go Sorry.
+A:Alright.
+E:I feel like like hanging mid-air and not really like finding a point where you can get your teeth into it and start working properly.
+D:Yeah I know.
+E:and.
+E:so it's all so fuzzy the whole.
+D:I think it's 'cause we had to specify it ourselves that it's not as um like focus the specification of most um work.
+E:Yeah but it.
+D:we.
+D:have to do.
+E:at the moment.
+E:but at the moment it's also an implementational level Like with the data structures I'm just like over these vague ideas of some.
+D:Yeah.
+E:trees I'm.
+D:Once we start doing it it will all become more or less obvious I think anyway.
