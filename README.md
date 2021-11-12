@@ -10,7 +10,7 @@ E:Okay 'Kay.
 D:Uh mine's gonna be mostly using the off-line But the actual stuff it's doing will be on-line But it won't be very.     
 D:um processor intensive or memory intensive I don't.     
      
-`Note: The AMI corpus has many instances of cross talk which I have tried to eliminate using the code. The current code does eliminate cross talk (to an extent) but it could use some improvement`
+`Note: The AMI corpus has many instances of cross talk which I have tried to eliminate using the code. The current code eliminates cross talk (to an extent) but it could use some improvement`
 
 ## The AMI Corpus:
 You can find out more about the AMI Corpus [here][amilink]
